@@ -108,7 +108,7 @@ For more information, please see the inline documentation of VPNProperties Class
 
 If you want to show your user the best location for him on your GUI then ATOM SDK have it ready for you as well! ATOM SDK has a method exposed namely “GetOptimizedCountries()” which adds a property “Latency” in the country object which has the real-time latency of all countries from your user’s location (only if ping is enabled on your user’s system and ISP doesn’t blocks any of our datacenters). You can use this property to find the best speed countries from your user’s location.
 
-<h1>Connection with Multiple Protocols (Auto-Retry Functionality)/<h1>
+<h1>Connection with Multiple Protocols (Auto-Retry Functionality)</h1>
 You can provide Three Protocols at max so ATOM SDK can attempt automatically on your behalf to get your user connected with the Secondary or Tertiary protocol if your base Protocol fails to connect.
 
 vpnProperties.SecondaryProtocol = ProtocolObject;
