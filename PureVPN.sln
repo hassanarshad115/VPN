@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureVPN", "PureVPN\PureVPN.csproj", "{37186A3F-E6BF-48C8-AE8E-BC71211576FA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VPNSetup", "VPNSetup\VPNSetup.vdproj", "{0B442FAD-9AA8-4447-986F-070AF07BC688}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37186A3F-E6BF-48C8-AE8E-BC71211576FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37186A3F-E6BF-48C8-AE8E-BC71211576FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37186A3F-E6BF-48C8-AE8E-BC71211576FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37186A3F-E6BF-48C8-AE8E-BC71211576FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B442FAD-9AA8-4447-986F-070AF07BC688}.Debug|Any CPU.ActiveCfg = Debug
+		{0B442FAD-9AA8-4447-986F-070AF07BC688}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

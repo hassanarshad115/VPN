@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{37186A3F-E6BF-48C8-AE8E-BC71211576FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PureVPN</RootNamespace>
+    <AssemblyName>PureVPN</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Blun.ConfigurationManager, Version=1.0.5686.2674, Culture=neutral, PublicKeyToken=f5a0a2e6b25dfd56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Blun.ConfigurationManager.1.0.5686.2674\lib\net40\Blun.ConfigurationManager.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Hassan">
+      <HintPath>..\..\..\Hassan.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ToggleSwitch, Version=1.1.2.0, Culture=neutral, PublicKeyToken=8637099990568f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\ToggleSwitch.1.1.2\lib\net40-client\ToggleSwitch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="changeMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changeMode.Designer.cs">
+      <DependentUpon>changeMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\countryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\countryControl.Designer.cs">
+      <DependentUpon>countryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DashboardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DashboardControl.Designer.cs">
+      <DependentUpon>DashboardControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\searchLocationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\searchLocationControl.Designer.cs">
+      <DependentUpon>searchLocationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogOutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogOutBox.Designer.cs">
+      <DependentUpon>LogOutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\getPaymentDetails.cs" />
+    <Compile Include="payPal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payPal.Designer.cs">
+      <DependentUpon>payPal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="preference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preference.Designer.cs">
+      <DependentUpon>preference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controls\LocationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LocationControl.Designer.cs">
+      <DependentUpon>LocationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pureVPN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pureVPN.Designer.cs">
+      <DependentUpon>pureVPN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="security.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="security.Designer.cs">
+      <DependentUpon>security.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectMode.Designer.cs">
+      <DependentUpon>selectMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update.Designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="changeMode.resx">
+      <DependentUpon>changeMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\countryControl.resx">
+      <DependentUpon>countryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DashboardControl.resx">
+      <DependentUpon>DashboardControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LocationControl.resx">
+      <DependentUpon>LocationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\searchLocationControl.resx">
+      <DependentUpon>searchLocationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogOutBox.resx">
+      <DependentUpon>LogOutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payPal.resx">
+      <DependentUpon>payPal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preference.resx">
+      <DependentUpon>preference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="pureVPN.resx">
+      <DependentUpon>pureVPN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="security.resx">
+      <DependentUpon>security.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectMode.resx">
+      <DependentUpon>selectMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111328-eyecons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111328-eyecons1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111328-eyecons %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-down-icon-png-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paypal_PNG22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d892ca554289b2648c6821680e53fb26-key-silhouette-10-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting__config__tools__cog_-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting__config__tools__cog_-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting__config__tools__cog_-5122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-plane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons-light_4-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-ip-address-computer-icons-computer-software-ipv4-n-map-icon-5ac0c626a2d508.439867001522583078667.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Security Centre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\160_F_86163805_f2x0D6nDeSe2GxMAGJXVK3WaNXRt0cOW.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\global-icon-png-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifi-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58e9197deb97430e819064f8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1414386628_facebook_circle_color-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitter_circle-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8ca486faebd822ddf4baf00321b16df1-google-icon-logo-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaper2you_376892.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark-backgrounds-On-wallpaper-hd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-background-hd-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-icon-image-placeholder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-icon-image-placeholder1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-arrow-png-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\149879787220326%281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-arrow-png-8 %281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\291205.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-5122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primary-tool-shutdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-5123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\divide_arrow_watershed_water_parting-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Security Centre1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-01-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000px-Arrow_icon.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\599px-Wegzeichen_grüner_Punkt.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_Davys-Grey_Solid.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1461920554009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet-point-wisdom-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green-circle-small.svg.med.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\599px-Wegzeichen_grüner_Punkt.svg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align-left-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dns.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pakistan_pakistani_national_country_flag-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag-400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\american-flag-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSTSCLib">
+      <Guid>{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-pay-online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IT-Italy-Flag-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag-4001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2982-004-ABEB3852.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag-400 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag-400 %282%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
