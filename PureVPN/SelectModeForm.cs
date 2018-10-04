@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace PureVPN
 {
-    public partial class selectMode : MaterialSkin.Controls.MaterialForm
+    public partial class SelectModeForm : MaterialSkin.Controls.MaterialForm
     {
-        public selectMode()
+        public SelectModeForm()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            preference pr = new preference();
+            PreferenceForm pr = new PreferenceForm();
             if (pr == null)
             {
                 pr.Parent = this;
@@ -30,7 +30,7 @@ namespace PureVPN
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            changeMode pr = new changeMode();
+            ChangeModeForm pr = new ChangeModeForm();
             if (pr == null)
             {
                 pr.Parent = this;
@@ -41,7 +41,7 @@ namespace PureVPN
 
         private void lblBack_Click(object sender, EventArgs e)
         {
-            preference pr = new preference();
+            PreferenceForm pr = new PreferenceForm();
             if (pr == null)
             {
                 pr.Parent = this;
@@ -52,7 +52,7 @@ namespace PureVPN
 
         private void picSecurity_Click(object sender, EventArgs e)
         {
-            security pa = new security();
+            SecurityForm pa = new SecurityForm();
             if (pa == null)
             {
                 pa.Parent = this;

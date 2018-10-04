@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PureVPN
 {
-    public partial class LogOutBox : MaterialSkin.Controls.MaterialForm
+    public partial class LogOutBoxForm : MaterialSkin.Controls.MaterialForm
     {
-        public LogOutBox()
+        public LogOutBoxForm()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace PureVPN
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Login lng = new Login();
+            LoginForm lng = new LoginForm();
             if (lng == null)
             {
                 lng.Parent = this;

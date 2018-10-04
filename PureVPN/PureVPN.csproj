@@ -78,12 +78,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="changeMode.cs">
+    <Compile Include="ChangeModeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="changeMode.Designer.cs">
-      <DependentUpon>changeMode.cs</DependentUpon>
+    <Compile Include="ChangeModeForm.Designer.cs">
+      <DependentUpon>ChangeModeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controls\countryControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -102,30 +103,31 @@
     <Compile Include="Controls\searchLocationControl.Designer.cs">
       <DependentUpon>searchLocationControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LogOutBox.cs">
+    <Compile Include="LogOutBoxForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LogOutBox.Designer.cs">
-      <DependentUpon>LogOutBox.cs</DependentUpon>
+    <Compile Include="LogOutBoxForm.Designer.cs">
+      <DependentUpon>LogOutBoxForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\getPaymentDetails.cs" />
-    <Compile Include="payPal.cs">
+    <Compile Include="Models\GetPaymentDetails.cs" />
+    <Compile Include="Models\UDatabase.cs" />
+    <Compile Include="PayPalForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="payPal.Designer.cs">
-      <DependentUpon>payPal.cs</DependentUpon>
+    <Compile Include="PayPalForm.Designer.cs">
+      <DependentUpon>PayPalForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="preference.cs">
+    <Compile Include="PreferenceForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="preference.Designer.cs">
-      <DependentUpon>preference.cs</DependentUpon>
+    <Compile Include="PreferenceForm.Designer.cs">
+      <DependentUpon>PreferenceForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -135,32 +137,32 @@
     <Compile Include="Controls\LocationControl.Designer.cs">
       <DependentUpon>LocationControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="pureVPN.cs">
+    <Compile Include="PureVPNForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pureVPN.Designer.cs">
-      <DependentUpon>pureVPN.cs</DependentUpon>
+    <Compile Include="PureVPNForm.Designer.cs">
+      <DependentUpon>PureVPNForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="security.cs">
+    <Compile Include="SecurityForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="security.Designer.cs">
-      <DependentUpon>security.cs</DependentUpon>
+    <Compile Include="SecurityForm.Designer.cs">
+      <DependentUpon>SecurityForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="selectMode.cs">
+    <Compile Include="SelectModeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="selectMode.Designer.cs">
-      <DependentUpon>selectMode.cs</DependentUpon>
+    <Compile Include="SelectModeForm.Designer.cs">
+      <DependentUpon>SelectModeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Update.cs">
+    <Compile Include="UpdateForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Update.Designer.cs">
-      <DependentUpon>Update.cs</DependentUpon>
+    <Compile Include="UpdateForm.Designer.cs">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="changeMode.resx">
-      <DependentUpon>changeMode.cs</DependentUpon>
+    <EmbeddedResource Include="ChangeModeForm.resx">
+      <DependentUpon>ChangeModeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\countryControl.resx">
       <DependentUpon>countryControl.cs</DependentUpon>
@@ -174,17 +176,17 @@
     <EmbeddedResource Include="Controls\searchLocationControl.resx">
       <DependentUpon>searchLocationControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LogOutBox.resx">
-      <DependentUpon>LogOutBox.cs</DependentUpon>
+    <EmbeddedResource Include="LogOutBoxForm.resx">
+      <DependentUpon>LogOutBoxForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="payPal.resx">
-      <DependentUpon>payPal.cs</DependentUpon>
+    <EmbeddedResource Include="PayPalForm.resx">
+      <DependentUpon>PayPalForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="preference.resx">
-      <DependentUpon>preference.cs</DependentUpon>
+    <EmbeddedResource Include="PreferenceForm.resx">
+      <DependentUpon>PreferenceForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -196,17 +198,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="pureVPN.resx">
-      <DependentUpon>pureVPN.cs</DependentUpon>
+    <EmbeddedResource Include="PureVPNForm.resx">
+      <DependentUpon>PureVPNForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="security.resx">
-      <DependentUpon>security.cs</DependentUpon>
+    <EmbeddedResource Include="SecurityForm.resx">
+      <DependentUpon>SecurityForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="selectMode.resx">
-      <DependentUpon>selectMode.cs</DependentUpon>
+    <EmbeddedResource Include="SelectModeForm.resx">
+      <DependentUpon>SelectModeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Update.resx">
-      <DependentUpon>Update.cs</DependentUpon>
+    <EmbeddedResource Include="UpdateForm.resx">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -470,6 +472,7 @@
   <ItemGroup>
     <None Include="Resources\flag-400 %282%29.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

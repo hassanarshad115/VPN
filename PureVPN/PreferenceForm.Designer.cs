@@ -1,6 +1,6 @@
 ﻿namespace PureVPN
 {
-    partial class preference
+    partial class PreferenceForm
     {
         /// <summary>
         /// Required designer variable.

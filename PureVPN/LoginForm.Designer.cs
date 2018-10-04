@@ -1,6 +1,6 @@
 ﻿namespace PureVPN
 {
-    partial class Login
+    partial class LoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUsers = new System.Windows.Forms.TextBox();
-            this.btnlogin = new System.Windows.Forms.Button();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.txtPass = new System.Windows.Forms.TextBox();
+            this.lnkRecover = new System.Windows.Forms.LinkLabel();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblBack = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chkShowPassword = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -58,36 +58,36 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Login with your PureVPN";
             // 
-            // txtUsers
+            // txtUserName
             // 
-            this.txtUsers.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtUsers.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsers.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtUsers.Location = new System.Drawing.Point(296, 195);
-            this.txtUsers.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.txtUsers.Multiline = true;
-            this.txtUsers.Name = "txtUsers";
-            this.txtUsers.Size = new System.Drawing.Size(277, 37);
-            this.txtUsers.TabIndex = 1;
-            this.txtUsers.Text = "Username";
-            this.txtUsers.Enter += new System.EventHandler(this.txtUsers_Enter);
-            this.txtUsers.Leave += new System.EventHandler(this.txtUsers_Leave);
+            this.txtUserName.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtUserName.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtUserName.Location = new System.Drawing.Point(296, 195);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtUserName.Multiline = true;
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(277, 37);
+            this.txtUserName.TabIndex = 1;
+            this.txtUserName.Text = "Username";
+            this.txtUserName.Enter += new System.EventHandler(this.txtUserName_Enter);
+            this.txtUserName.Leave += new System.EventHandler(this.txtUserName_Leave);
             // 
-            // btnlogin
+            // btnLogin
             // 
-            this.btnlogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnlogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(213)))), ((int)(((byte)(115)))));
-            this.btnlogin.FlatAppearance.BorderSize = 0;
-            this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnlogin.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlogin.ForeColor = System.Drawing.Color.White;
-            this.btnlogin.Location = new System.Drawing.Point(371, 348);
-            this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(112, 41);
-            this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "LOGIN";
-            this.btnlogin.UseVisualStyleBackColor = false;
-            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
+            this.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(213)))), ((int)(((byte)(115)))));
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.Location = new System.Drawing.Point(370, 348);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(112, 41);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "LOGIN";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // label3
             // 
@@ -102,33 +102,34 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Forgot username or password?";
             // 
-            // linkLabel1
+            // lnkRecover
             // 
-            this.linkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(496, 419);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(54, 15);
-            this.linkLabel1.TabIndex = 6;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Recover";
+            this.lnkRecover.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lnkRecover.AutoSize = true;
+            this.lnkRecover.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkRecover.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.lnkRecover.Location = new System.Drawing.Point(496, 419);
+            this.lnkRecover.Name = "lnkRecover";
+            this.lnkRecover.Size = new System.Drawing.Size(54, 15);
+            this.lnkRecover.TabIndex = 6;
+            this.lnkRecover.TabStop = true;
+            this.lnkRecover.Text = "Recover";
             // 
-            // txtPass
+            // txtPassword
             // 
-            this.txtPass.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtPass.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtPass.Location = new System.Drawing.Point(296, 252);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.txtPass.Multiline = true;
-            this.txtPass.Name = "txtPass";
-            this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(277, 37);
-            this.txtPass.TabIndex = 8;
-            this.txtPass.Text = "Password";
-            this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
-            this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
+            this.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtPassword.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtPassword.Location = new System.Drawing.Point(296, 252);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtPassword.Multiline = true;
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(277, 37);
+            this.txtPassword.TabIndex = 8;
+            this.txtPassword.Text = "Password";
+            this.txtPassword.Enter += new System.EventHandler(this.txtPassword_Enter);
+            this.txtPassword.Leave += new System.EventHandler(this.txtPassword_Leave);
             // 
             // pictureBox3
             // 
@@ -164,6 +165,7 @@
             this.lblBack.Size = new System.Drawing.Size(45, 22);
             this.lblBack.TabIndex = 12;
             this.lblBack.Text = "Back";
+            this.lblBack.Visible = false;
             this.lblBack.Click += new System.EventHandler(this.lblBack_Click);
             // 
             // label13
@@ -189,40 +191,40 @@
             this.pictureBox4.TabIndex = 13;
             this.pictureBox4.TabStop = false;
             // 
-            // checkBox1
+            // chkShowPassword
             // 
-            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.checkBox1.Location = new System.Drawing.Point(297, 304);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(116, 18);
-            this.checkBox1.TabIndex = 15;
-            this.checkBox1.Text = "Show Password";
-            this.checkBox1.UseVisualStyleBackColor = false;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.chkShowPassword.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.chkShowPassword.AutoSize = true;
+            this.chkShowPassword.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.chkShowPassword.Location = new System.Drawing.Point(297, 304);
+            this.chkShowPassword.Name = "chkShowPassword";
+            this.chkShowPassword.Size = new System.Drawing.Size(116, 18);
+            this.chkShowPassword.TabIndex = 15;
+            this.chkShowPassword.Text = "Show Password";
+            this.chkShowPassword.UseVisualStyleBackColor = false;
+            this.chkShowPassword.CheckedChanged += new System.EventHandler(this.chkShowPassword_CheckedChanged);
             // 
-            // Login
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(918, 645);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.chkShowPassword);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.lblBack);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.txtPass);
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.lnkRecover);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.txtUsers);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.Name = "Login";
+            this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -236,16 +238,16 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUsers;
-        private System.Windows.Forms.Button btnlogin;
+        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.LinkLabel lnkRecover;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label lblBack;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chkShowPassword;
     }
 }

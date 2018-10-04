@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PureVPN
 {
-    public partial class Update : MaterialSkin.Controls.MaterialForm
+    public partial class UpdateForm : MaterialSkin.Controls.MaterialForm
     {
-        public Update()
+        public UpdateForm()
         {
             InitializeComponent();
            

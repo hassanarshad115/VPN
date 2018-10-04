@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PureVPN
 {
-    public partial class pureVPN : MaterialSkin.Controls.MaterialForm
+    public partial class PureVPNForm : MaterialSkin.Controls.MaterialForm
     {
-        public pureVPN()
+        public PureVPNForm()
         {
             InitializeComponent();
         }
@@ -33,7 +33,7 @@ namespace PureVPN
 
         private void lblBack_Click(object sender, EventArgs e)
         {
-            security se = new security();
+            SecurityForm se = new SecurityForm();
             if (se == null)
             {
                 se.Parent = this;
@@ -59,7 +59,7 @@ namespace PureVPN
 
         private void button1_Click(object sender, EventArgs e)
         {
-            changeMode ch = new changeMode();
+            ChangeModeForm ch = new ChangeModeForm();
             if (ch == null)
             {
                 ch.Parent = this;

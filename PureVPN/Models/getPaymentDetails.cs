@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PureVPN.Models
 {
-    class getPaymentDetails
+    class GetPaymentDetails
     {
         public string pAmount { get; set; }
         public int uid { get; set; }
