@@ -12,6 +12,7 @@ using System.Configuration;
 using PureVPN.Controls;
 using Hassan;
 using PureVPN.Models;
+using PureVPN.Controllers;
 
 namespace PureVPN
 {
@@ -22,185 +23,97 @@ namespace PureVPN
             InitializeComponent();
         }
 
+        private bool CheckErrors()
+        {
+            if (txtUserName.Text == "Username")
+            {
+                Information.ErrorMessage("Please Enter the User Name");
+                txtUserName.Focus();
+
+                return false;
+            }
+
+            if (txtPassword.Text == "Password")
+            {
+                Information.ErrorMessage("Please Enter the Password");
+                txtPassword.Focus();
+
+                return false;
+            }
+
+            return true;
+        }
+
         private void Login_Load(object sender, EventArgs e)
         {
 
-            //timer1.Start();
-            linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-        }
-
-        private void payPayPayment()
-        {
-            getPaymentDetails pay = paymentMethod();
-            int totalDayleft = 0;
-            if (pay.pDate != null)
-            {
-                if (pay.pDate == new DateTime(2018, 4, 5))
-                {
-                    totalDayleft = findDate(DateTime.Now.Date.AddDays(7), DateTime.Now.Date);
-                }
-                else
-                {
-                    totalDayleft = findDate(pay.pDate, DateTime.Now.Date);
-                }
-                showtrial(totalDayleft);
-
-            }
-        }
-        public int days { get; set; }
-        private void showtrial(int totalDayleft)
-        {
-            days = totalDayleft;
-        }
-
-        private int findDate(DateTime dateTime, DateTime now)
-        {
-            getPaymentDetails py = new getPaymentDetails();
-            return Convert.ToInt32((dateTime - now).TotalDays);
-        }
-
-        private getPaymentDetails paymentMethod()
-        {
-            getPaymentDetails payment = new getPaymentDetails();
-
-            string str = ConfigurationManager.ConnectionStrings["VPN"].ConnectionString;
-            using (SqlConnection conn = new SqlConnection(str))
-            {
-
-                using (SqlCommand cmd = new SqlCommand("select  pDate from payment INNER JOIN Users on payment.iId = Users.iId where uEmail ='" + txtUsers.Text + "' ", conn))
-                {
-                    conn.Open();
-                    SqlDataReader dr = cmd.ExecuteReader();
-                    dr.Read();
-                    payment.pDate = Convert.ToDateTime(dr["pDate"]);
-                }
-            }
-            return payment;
-        }
-
-        private void txtUsers_Enter(object sender, EventArgs e)
-        {
-
-            if (txtUsers.Text == "Username")
-            {
-                txtUsers.Text = "";
-            }
-        }
-
-        private void txtUsers_Leave(object sender, EventArgs e)
-        {
-            if (txtUsers.Text == "")
-            {
-                txtUsers.Text = "Username";
-            }
-        }
-
-        private void txtPass_Enter(object sender, EventArgs e)
-        {
-            if (txtPass.Text == "Password")
-            {
-                txtPass.Text = "";
-            }
-        }
-
-        private void txtPass_Leave(object sender, EventArgs e)
-        {
-            if (txtPass.Text == "")
-            {
-                txtPass.Text = "Password";
-            }
-        }
-        public int da { get; set; }
-        private void btnlogin_Click(object sender, EventArgs e)
-        {
-            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["VPN"].ConnectionString);
-            con.Open();
-            if (isEmpty())
-            {
-
-                SqlCommand cmd = new SqlCommand("pure_VPN_Login", con);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@name", txtUsers.Text);
-                cmd.Parameters.AddWithValue("@pass", txtPass.Text);
-                cmd.ExecuteNonQuery();
-                DataSet ds = new DataSet();
-                SqlDataAdapter da = new SqlDataAdapter();
-                da.SelectCommand = cmd;
-                da.Fill(ds);
-
-                if (ds.Tables[0].Rows.Count > 0)
-                {
-                    payPayPayment();
-                    if (days > 0)
-                    {
-                        con.Close();
-                        Information.InformationMessage("Your trial is " + days + " days left");
-                        PreferenceForm pr = new PreferenceForm();
-                        pr.emailp = txtUsers.Text;
-                        pr.passwordP = txtPass.Text;
-                        if (pr == null)
-                        {
-                            pr.Parent = this;
-                        }
-                        pr.Show();
-                        this.Hide();
-                    }
-                    else
-                    {
-                        Information.ErrorMessage("Your trial is expire.Pay on paypal account");
-                    }
-
-                }
-               
-            }
-            
-
-        }
-
-        private bool isEmpty()
-        {
-            if (txtUsers.Text == "Username")
-            {
-                Information.ErrorMessage("Please Enter the User Name");
-                txtUsers.Clear();
-                txtUsers.Focus();
-                return false;
-            }
-            if (txtPass.Text == "Password")
-            {
-                Information.ErrorMessage("Please Enter the Password");
-                txtPass.Clear();
-                txtPass.Focus();
-                return false;
-            }
-            return true;
         }
 
         private void lblBack_Click(object sender, EventArgs e)
         {
-            PayPalForm pr = new PayPalForm();
-            if (pr == null)
+            using (PayPalForm frm = new PayPalForm())
             {
-                pr.Parent = this;
+                Hide();
+                frm.ShowDialog();
+                Show();
             }
-            pr.Show();
-            this.Hide();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void txtUserName_Enter(object sender, EventArgs e)
         {
-            
+            if (txtUserName.Text == "Username")
+            {
+                txtUserName.Text = "";
+            }
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void txtUserName_Leave(object sender, EventArgs e)
         {
-            if (txtPass.UseSystemPasswordChar == true)
+            if (txtUserName.Text == "")
             {
-                txtPass.UseSystemPasswordChar = false;
+                txtUserName.Text = "Username";
             }
-            else
+        }
+
+        private void txtPassword_Enter(object sender, EventArgs e)
+        {
+            if (txtPassword.Text == "Password")
             {
-                txtPass.UseSystemPasswordChar = true;
+                txtPassword.Text = "";
+            }
+        }
+
+        private void txtPassword_Leave(object sender, EventArgs e)
+        {
+            if (txtPassword.Text == "")
+            {
+                txtPassword.Text = "Password";
+            }
+        }
+
+        private void chkShowPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            txtPassword.UseSystemPasswordChar = !chkShowPassword.Checked;
+        }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            if (CheckErrors() && LoginController.AuthenticateLogin(txtUserName.Text, txtPassword.Text))
+            {
+                using (SelectModeForm frm = new SelectModeForm())
+                {
+                    //frm.emailp = txtUsers.Text;
+                    //frm.passwordP = txtPass.Text;
+
+                    //if (frm == null)
+                    //{
+                    //    frm.Parent = this;
+                    //}
+
+                    Hide();
+                    frm.ShowDialog();
+                    Show();
+                }
             }
         }
     }

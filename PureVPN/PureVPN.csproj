@@ -84,6 +84,7 @@
     <Compile Include="ChangeModeForm.Designer.cs">
       <DependentUpon>ChangeModeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controls\countryControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -114,7 +115,8 @@
     <Compile Include="LogOutBoxForm.Designer.cs">
       <DependentUpon>LogOutBoxForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\getPaymentDetails.cs" />
+    <Compile Include="Models\GetPaymentDetails.cs" />
+    <Compile Include="Models\UDatabase.cs" />
     <Compile Include="PayPalForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -470,6 +472,7 @@
   <ItemGroup>
     <None Include="Resources\flag-400 %282%29.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
