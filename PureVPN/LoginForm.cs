@@ -15,9 +15,9 @@ using PureVPN.Models;
 
 namespace PureVPN
 {
-    public partial class Login : MaterialSkin.Controls.MaterialForm
+    public partial class LoginForm : MaterialSkin.Controls.MaterialForm
     {
-        public Login()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -135,7 +135,7 @@ namespace PureVPN
                     {
                         con.Close();
                         Information.InformationMessage("Your trial is " + days + " days left");
-                        preference pr = new preference();
+                        PreferenceForm pr = new PreferenceForm();
                         pr.emailp = txtUsers.Text;
                         pr.passwordP = txtPass.Text;
                         if (pr == null)
@@ -178,7 +178,7 @@ namespace PureVPN
 
         private void lblBack_Click(object sender, EventArgs e)
         {
-            payPal pr = new payPal();
+            PayPalForm pr = new PayPalForm();
             if (pr == null)
             {
                 pr.Parent = this;

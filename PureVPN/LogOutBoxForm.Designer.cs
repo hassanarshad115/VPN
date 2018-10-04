@@ -1,6 +1,6 @@
 ﻿namespace PureVPN
 {
-    partial class LogOutBox
+    partial class LogOutBoxForm
     {
         /// <summary>
         /// Required designer variable.

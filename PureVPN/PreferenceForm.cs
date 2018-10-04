@@ -16,9 +16,9 @@ using System.Windows.Forms;
 namespace PureVPN
 {
     
-    public partial class preference : MaterialSkin.Controls.MaterialForm
+    public partial class PreferenceForm : MaterialSkin.Controls.MaterialForm
     {
-        public preference()
+        public PreferenceForm()
         {
 
             InitializeComponent();
@@ -104,7 +104,7 @@ namespace PureVPN
 
         private void btnSelectMode_Click(object sender, EventArgs e)
         {
-            selectMode pr = new selectMode();
+            SelectModeForm pr = new SelectModeForm();
             if (pr == null)
             {
                 pr.Parent = this;
@@ -125,7 +125,7 @@ namespace PureVPN
 
         private void lblBack_Click(object sender, EventArgs e)
         {
-            Login pr = new Login();
+            LoginForm pr = new LoginForm();
             if (pr == null)
             {
                 pr.Parent = this;
@@ -226,7 +226,7 @@ namespace PureVPN
         private void btnCheckUpdate_Click(object sender, EventArgs e)
         {
 
-            Update popup = new Update();
+            UpdateForm popup = new UpdateForm();
             popup.Show();
             if (popup.Visible == true)
             {
@@ -249,7 +249,7 @@ namespace PureVPN
 
         private void btnLogOut_Click(object sender, EventArgs e)
         {
-            LogOutBox logout = new LogOutBox();
+            LogOutBoxForm logout = new LogOutBoxForm();
             logout.Show();
             if (logout.Visible == true)
             {

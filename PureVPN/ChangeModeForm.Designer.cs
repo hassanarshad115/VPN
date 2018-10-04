@@ -1,6 +1,6 @@
 ﻿namespace PureVPN
 {
-    partial class changeMode
+    partial class ChangeModeForm
     {
         /// <summary>
         /// Required designer variable.

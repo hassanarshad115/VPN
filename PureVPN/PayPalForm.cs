@@ -16,9 +16,9 @@ using System.Text.RegularExpressions;
 
 namespace PureVPN
 {
-    public partial class payPal : MaterialSkin.Controls.MaterialForm
+    public partial class PayPalForm : MaterialSkin.Controls.MaterialForm
     {
-        public payPal()
+        public PayPalForm()
         {
             InitializeComponent();
         }
@@ -124,7 +124,7 @@ namespace PureVPN
 
         private void lblNext_Click(object sender, EventArgs e)
         {
-            Login pr = new Login();
+            LoginForm pr = new LoginForm();
             if (pr == null)
             {
                 pr.Parent = this;

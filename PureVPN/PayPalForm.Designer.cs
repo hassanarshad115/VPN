@@ -1,6 +1,6 @@
 ﻿namespace PureVPN
 {
-    partial class payPal
+    partial class PayPalForm
     {
         /// <summary>
         /// Required designer variable.
