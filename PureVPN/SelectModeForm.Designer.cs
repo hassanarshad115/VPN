@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.lnkLearnMore = new System.Windows.Forms.LinkLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -91,18 +91,18 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "You can always change your settings later";
             // 
-            // linkLabel1
+            // lnkLearnMore
             // 
-            this.linkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.White;
-            this.linkLabel1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(533, 107);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(95, 19);
-            this.linkLabel1.TabIndex = 1;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Learn More";
+            this.lnkLearnMore.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lnkLearnMore.AutoSize = true;
+            this.lnkLearnMore.BackColor = System.Drawing.Color.White;
+            this.lnkLearnMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkLearnMore.Location = new System.Drawing.Point(500, 107);
+            this.lnkLearnMore.Name = "lnkLearnMore";
+            this.lnkLearnMore.Size = new System.Drawing.Size(95, 19);
+            this.lnkLearnMore.TabIndex = 1;
+            this.lnkLearnMore.TabStop = true;
+            this.lnkLearnMore.Text = "Learn More";
             // 
             // panel1
             // 
@@ -399,7 +399,7 @@
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
             // 
-            // selectMode
+            // SelectModeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -415,9 +415,9 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.lnkLearnMore);
             this.Controls.Add(this.label1);
-            this.Name = "selectMode";
+            this.Name = "SelectModeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -452,7 +452,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel lnkLearnMore;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
