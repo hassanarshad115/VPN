@@ -28,7 +28,7 @@ namespace PureVPN
             pr.Show();
             this.Hide();
         }
-
+          
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             ChangeModeForm pr = new ChangeModeForm();
