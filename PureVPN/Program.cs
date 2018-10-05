@@ -16,7 +16,7 @@ namespace PureVPN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SelectModeForm());
+            Application.Run(new LoginForm());
         }
     }
 }
