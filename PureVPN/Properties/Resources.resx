@@ -121,23 +121,38 @@
   <data name="up-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\up-5122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo_1xY_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_1xY_icon1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="d892ca554289b2648c6821680e53fb26-key-silhouette-10-by-vexels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d892ca554289b2648c6821680e53fb26-key-silhouette-10-by-vexels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_1xY_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_1xY_icon1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="599px-Wegzeichen_grüner_Punkt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\599px-Wegzeichen_grüner_Punkt.svg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="paper-plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\paper-plane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logout-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logout-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Key" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1414386628_facebook_circle_color-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1414386628_facebook_circle_color-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="paypal_PNG22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\paypal_PNG22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PureVPN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PureVPN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="global-icon-png-23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\global-icon-png-23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2000px-Arrow_icon.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2000px-Arrow_icon.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="111328-eyecons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\111328-eyecons1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -147,9 +162,6 @@
   </data>
   <data name="dark-backgrounds-On-wallpaper-hd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dark-backgrounds-On-wallpaper-hd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="flag-400 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\flag-400 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Security Centre1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Security Centre1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,6 +175,9 @@
   <data name="download (5)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (5)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1461920554009" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1461920554009.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -175,6 +190,9 @@
   <data name="arrow-down-icon-png-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow-down-icon-png-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="111328-eyecons (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\111328-eyecons (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="up-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\up-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -183,9 +201,6 @@
   </data>
   <data name="primary-tool-shutdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\primary-tool-shutdown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="setting__config__tools__cog_-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\setting__config__tools__cog_-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +214,8 @@
   <data name="user-icon-image-placeholder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-icon-image-placeholder.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="setting__config__tools__cog_-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\setting__config__tools__cog_-5122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="291205" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\291205.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,8 +226,14 @@
   <data name="images (7)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (7)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo_1xY_icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_1xY_icon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="111328-eyecons" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\111328-eyecons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-icon-image-placeholder1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-icon-image-placeholder1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,8 +241,8 @@
   <data name="bullet-point-wisdom-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bullet-point-wisdom-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user-icon-image-placeholder1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-icon-image-placeholder1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="flag-400 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag-400 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="67-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\67-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,11 +286,11 @@
   <data name="Dns" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dns.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="setting__config__tools__cog_-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting__config__tools__cog_-5122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Key1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Key1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="8ca486faebd822ddf4baf00321b16df1-google-icon-logo-by-vexels" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\8ca486faebd822ddf4baf00321b16df1-google-icon-logo-by-vexels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons-light_4-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons-light_4-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -286,20 +307,20 @@
   <data name="arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Security Centre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Security Centre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="67-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\67-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="american-flag-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\american-flag-icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="111328-eyecons (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\111328-eyecons (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="paper-plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paper-plane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IT-Italy-Flag-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IT-Italy-Flag-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,11 +337,11 @@
   <data name="Circle_Davys-Grey_Solid.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Circle_Davys-Grey_Solid.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1414386628_facebook_circle_color-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1414386628_facebook_circle_color-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mozila" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mozila.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="setting__config__tools__cog_-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\setting__config__tools__cog_-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="8ca486faebd822ddf4baf00321b16df1-google-icon-logo-by-vexels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8ca486faebd822ddf4baf00321b16df1-google-icon-logo-by-vexels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="flag-400" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flag-400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -334,11 +355,11 @@
   <data name="flag-400 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flag-400 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2000px-Arrow_icon.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2000px-Arrow_icon.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="setting__config__tools__cog_-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting__config__tools__cog_-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Security Centre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Security Centre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="setting__config__tools__cog_-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting__config__tools__cog_-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\favicon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -346,11 +367,14 @@
   <data name="up-5123" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\up-5123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mozila1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mozila.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="black-background-hd-" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\black-background-hd-.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logout-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logout-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -358,7 +382,7 @@
   <data name="download (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fav" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fav.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

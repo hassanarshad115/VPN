@@ -1,4 +1,5 @@
 ﻿using PureVPN.Interface;
+using PureVPN.Views.ModeForms;
 using System;
 using System.Windows.Forms;
 
@@ -25,7 +26,10 @@ namespace PureVPN
 
         private void pbxStream_Click(object sender, EventArgs e)
         {
-
+            StreamModeForm smf = new StreamModeForm();
+            //(smf as IParent).ParentForm = ParentForm;                     ye set krna ha
+            smf.Show();
+            Hide();
         }
 
         private void pbxInternetFreedom_Click(object sender, EventArgs e)

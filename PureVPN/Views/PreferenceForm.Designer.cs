@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PreferenceForm));
             this.btnProfile = new System.Windows.Forms.Button();
             this.btnAppSetting = new System.Windows.Forms.Button();
             this.btnOptions = new System.Windows.Forms.Button();
@@ -1390,7 +1391,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::PureVPN.Properties.Resources.favicon;
+            this.pictureBox2.Image = global::PureVPN.Properties.Resources.fav;
             this.pictureBox2.Location = new System.Drawing.Point(12, 25);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(31, 41);
@@ -1500,7 +1501,7 @@
             this.label35.TabIndex = 11;
             this.label35.Text = "Split Tunneling";
             // 
-            // preference
+            // PreferenceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1522,7 +1523,8 @@
             this.Controls.Add(this.btnSelectMode);
             this.Controls.Add(this.btnAppSetting);
             this.Controls.Add(this.btnProfile);
-            this.Name = "preference";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "PreferenceForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.preference_Load);
             this.flowOption.ResumeLayout(false);
