@@ -21,6 +21,8 @@ namespace PureVPN
         public LoginForm()
         {
             InitializeComponent();
+
+            MainSettings.ConfitureSystem();
         }
 
         private bool CheckErrors()

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Atom.SDK.Net.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,11 @@ namespace PureVPN.Controllers
 {
     internal class LoginController
     {
-        public int days { get; set; }
-        private void showtrial(int totalDayleft)
+        public static bool AuthenticateLogin(string userName, string password)
         {
-            days = totalDayleft;
+            //MainSettings.AtomManagerInstance = new Credentials(userName, password);
+
+            return true;
         }
 
         private void payPayPayment()
@@ -59,38 +61,6 @@ namespace PureVPN.Controllers
         //    return payment;
         //}
 
-        public static bool AuthenticateLogin(string userName, string password)
-        {
-            
 
-            if (true) //isEmpty()
-            {
-
-                
-
-                if (true)//dataSet.Tables[0].Rows.Count > 0
-                {
-                    //payPayPayment();
-
-                    if (true) //days > 0
-                    {
-                        //con.Close();
-
-                        //Information.InformationMessage("Your trial is " + days + " days left");
-
-                        
-
-                    }
-                    else
-                    {
-                        //Information.ErrorMessage("Your trial is expire.Pay on paypal account");
-                    }
-
-                }
-
-                return true;
-
-            }
-        }
     }
 }
