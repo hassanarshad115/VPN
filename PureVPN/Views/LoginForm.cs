@@ -1,5 +1,6 @@
 ﻿using System;
 using Hassan;
+using PureVPN.Interface;
 
 namespace PureVPN
 {
@@ -85,26 +86,10 @@ namespace PureVPN
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            MainSettings.OpenForm(this, new SelectModeForm());
-
-            //MainSettings.ConfitureSystem(txtUserName.Text, txtPassword.Text);
-
-            //if (CheckErrors() && LoginController.AuthenticateLogin(txtUserName.Text, txtPassword.Text))
-            //{
-
-            {
-                //frm.emailp = txtUsers.Text;
-                //frm.passwordP = txtPass.Text;
-
-                //if (frm == null)
-                //{
-                //    frm.Parent = this;
-                //}
-
-
-
-            }
-            //}
+            SelectModeForm frm = new SelectModeForm();
+            (frm as IParent).ParentForm = this;
+            frm.Show();
+            Hide();
         }
     }
 }

@@ -31,12 +31,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lnkLearnMore = new System.Windows.Forms.LinkLabel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pbxInternetFreedom = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblInternetFreedom = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pbxSecurity = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.lblSecurity = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pbxStream = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.lblStream = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -44,25 +47,32 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.pbxDedicatedIp = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.lblDedicatedIp = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.pbxFileShare = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.lblFileShare = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInternetFreedom)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxSecurity)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStream)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxDedicatedIp)).BeginInit();
             this.panel10.SuspendLayout();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxFileShare)).BeginInit();
             this.panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -85,7 +95,7 @@
             this.lnkLearnMore.AutoSize = true;
             this.lnkLearnMore.BackColor = System.Drawing.Color.White;
             this.lnkLearnMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkLearnMore.Location = new System.Drawing.Point(500, 107);
+            this.lnkLearnMore.Location = new System.Drawing.Point(500, 106);
             this.lnkLearnMore.Name = "lnkLearnMore";
             this.lnkLearnMore.Size = new System.Drawing.Size(95, 19);
             this.lnkLearnMore.TabIndex = 1;
@@ -103,6 +113,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(178, 176);
             this.panel1.TabIndex = 2;
+            // 
+            // pbxInternetFreedom
+            // 
+            this.pbxInternetFreedom.Image = global::PureVPN.Properties.Resources.paper_plane;
+            this.pbxInternetFreedom.Location = new System.Drawing.Point(0, 0);
+            this.pbxInternetFreedom.Name = "pbxInternetFreedom";
+            this.pbxInternetFreedom.Size = new System.Drawing.Size(178, 142);
+            this.pbxInternetFreedom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbxInternetFreedom.TabIndex = 1;
+            this.pbxInternetFreedom.TabStop = false;
+            this.pbxInternetFreedom.Click += new System.EventHandler(this.pbxInternetFreedom_Click);
             // 
             // panel2
             // 
@@ -123,6 +144,7 @@
             this.lblInternetFreedom.TabIndex = 0;
             this.lblInternetFreedom.Text = "Internet Freedom";
             this.lblInternetFreedom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblInternetFreedom.Click += new System.EventHandler(this.pbxInternetFreedom_Click);
             // 
             // panel3
             // 
@@ -135,6 +157,17 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(178, 176);
             this.panel3.TabIndex = 3;
+            // 
+            // pbxSecurity
+            // 
+            this.pbxSecurity.Image = global::PureVPN.Properties.Resources.Security_Centre;
+            this.pbxSecurity.Location = new System.Drawing.Point(0, 0);
+            this.pbxSecurity.Name = "pbxSecurity";
+            this.pbxSecurity.Size = new System.Drawing.Size(178, 142);
+            this.pbxSecurity.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbxSecurity.TabIndex = 1;
+            this.pbxSecurity.TabStop = false;
+            this.pbxSecurity.Click += new System.EventHandler(this.pbxSecurity_Click);
             // 
             // panel4
             // 
@@ -167,6 +200,17 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(178, 176);
             this.panel5.TabIndex = 3;
+            // 
+            // pbxStream
+            // 
+            this.pbxStream.Image = global::PureVPN.Properties.Resources.images__3_;
+            this.pbxStream.Location = new System.Drawing.Point(0, 0);
+            this.pbxStream.Name = "pbxStream";
+            this.pbxStream.Size = new System.Drawing.Size(178, 142);
+            this.pbxStream.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbxStream.TabIndex = 1;
+            this.pbxStream.TabStop = false;
+            this.pbxStream.Click += new System.EventHandler(this.pbxStream_Click);
             // 
             // panel6
             // 
@@ -238,6 +282,16 @@
             this.panel9.Size = new System.Drawing.Size(178, 176);
             this.panel9.TabIndex = 7;
             // 
+            // pbxDedicatedIp
+            // 
+            this.pbxDedicatedIp.Image = global::PureVPN.Properties.Resources._160_F_86163805_f2x0D6nDeSe2GxMAGJXVK3WaNXRt0cOW;
+            this.pbxDedicatedIp.Location = new System.Drawing.Point(0, 0);
+            this.pbxDedicatedIp.Name = "pbxDedicatedIp";
+            this.pbxDedicatedIp.Size = new System.Drawing.Size(178, 142);
+            this.pbxDedicatedIp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbxDedicatedIp.TabIndex = 1;
+            this.pbxDedicatedIp.TabStop = false;
+            // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.SystemColors.Control;
@@ -269,6 +323,16 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(178, 176);
             this.panel11.TabIndex = 5;
+            // 
+            // pbxFileShare
+            // 
+            this.pbxFileShare.Image = global::PureVPN.Properties.Resources.icons_light_4_512;
+            this.pbxFileShare.Location = new System.Drawing.Point(0, 0);
+            this.pbxFileShare.Name = "pbxFileShare";
+            this.pbxFileShare.Size = new System.Drawing.Size(178, 142);
+            this.pbxFileShare.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbxFileShare.TabIndex = 1;
+            this.pbxFileShare.TabStop = false;
             // 
             // panel12
             // 
@@ -332,20 +396,26 @@
             this.MaximizeBox = false;
             this.Name = "SelectModeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SelectModeForm_FormClosed);
             this.Load += new System.EventHandler(this.SelectModeForm_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInternetFreedom)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxSecurity)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxStream)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxDedicatedIp)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxFileShare)).EndInit();
             this.panel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
