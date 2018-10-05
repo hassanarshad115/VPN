@@ -1,18 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Configuration;
-using PureVPN.Controls;
 using Hassan;
-using PureVPN.Models;
-using PureVPN.Controllers;
 
 namespace PureVPN
 {
@@ -98,23 +85,26 @@ namespace PureVPN
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            if (CheckErrors() && LoginController.AuthenticateLogin(txtUserName.Text, txtPassword.Text))
+            MainSettings.OpenForm(this, new SelectModeForm());
+
+            //MainSettings.ConfitureSystem(txtUserName.Text, txtPassword.Text);
+
+            //if (CheckErrors() && LoginController.AuthenticateLogin(txtUserName.Text, txtPassword.Text))
+            //{
+
             {
-                using (SelectModeForm frm = new SelectModeForm())
-                {
-                    //frm.emailp = txtUsers.Text;
-                    //frm.passwordP = txtPass.Text;
+                //frm.emailp = txtUsers.Text;
+                //frm.passwordP = txtPass.Text;
 
-                    //if (frm == null)
-                    //{
-                    //    frm.Parent = this;
-                    //}
+                //if (frm == null)
+                //{
+                //    frm.Parent = this;
+                //}
 
-                    Hide();
-                    frm.ShowDialog();
-                    Show();
-                }
+
+
             }
+            //}
         }
     }
 }
