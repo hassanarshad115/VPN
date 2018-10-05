@@ -91,10 +91,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChangeModeForm.cs">
+    <Compile Include="ModeForms\ChangeModeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChangeModeForm.Designer.cs">
+    <Compile Include="ModeForms\ChangeModeForm.Designer.cs">
       <DependentUpon>ChangeModeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Controllers\LoginController.cs" />
@@ -116,22 +116,23 @@
     <Compile Include="Controls\searchLocationControl.Designer.cs">
       <DependentUpon>searchLocationControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="DedicatedIPForm.cs">
+    <Compile Include="ModeForms\DedicatedIPForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DedicatedIPForm.Designer.cs">
+    <Compile Include="ModeForms\DedicatedIPForm.Designer.cs">
       <DependentUpon>DedicatedIPForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FileShareForm.cs">
+    <Compile Include="ModeForms\FileShareForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FileShareForm.Designer.cs">
+    <Compile Include="ModeForms\FileShareForm.Designer.cs">
       <DependentUpon>FileShareForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="InternetFreedomForm.cs">
+    <Compile Include="Interface\IParent.cs" />
+    <Compile Include="ModeForms\InternetFreedomForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InternetFreedomForm.Designer.cs">
+    <Compile Include="ModeForms\InternetFreedomForm.Designer.cs">
       <DependentUpon>InternetFreedomForm.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
@@ -199,7 +200,7 @@
     <Compile Include="UpdateForm.Designer.cs">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ChangeModeForm.resx">
+    <EmbeddedResource Include="ModeForms\ChangeModeForm.resx">
       <DependentUpon>ChangeModeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\countryControl.resx">
@@ -214,13 +215,13 @@
     <EmbeddedResource Include="Controls\searchLocationControl.resx">
       <DependentUpon>searchLocationControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DedicatedIPForm.resx">
+    <EmbeddedResource Include="ModeForms\DedicatedIPForm.resx">
       <DependentUpon>DedicatedIPForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FileShareForm.resx">
+    <EmbeddedResource Include="ModeForms\FileShareForm.resx">
       <DependentUpon>FileShareForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InternetFreedomForm.resx">
+    <EmbeddedResource Include="ModeForms\InternetFreedomForm.resx">
       <DependentUpon>InternetFreedomForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">

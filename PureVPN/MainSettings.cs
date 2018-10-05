@@ -1,5 +1,6 @@
 ﻿using Atom.SDK.Net;
 using Atom.SDK.Net.Models;
+using PureVPN.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,18 @@ namespace PureVPN
     public class MainSettings
     {
         public static AtomManager AtomManagerInstance { get; private set; }
+
+        public static void OpenForm(Form parentForm, Form newForm)
+        {
+            if (newForm is IParent)
+            {
+                (newForm as IParent).ParentForm = parentForm;
+            }
+
+            newForm.FormClosed += (sender, e) => { Environment.Exit(0); };
+            parentForm.Hide();
+            newForm.Show();
+        }
 
         public static void ConfitureSystem(string userName, string password)
         {
@@ -53,12 +66,7 @@ namespace PureVPN
             throw new NotImplementedException();
         }
 
-        public static void OpenForm(Form currentForm, Form newForm)
-        {
-            newForm.FormClosed += (sender, e) => { currentForm.Show(); };
-            currentForm.Hide();
-            newForm.Show();
-        }
-        
+
+
     }
 }
