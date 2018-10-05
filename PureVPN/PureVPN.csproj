@@ -35,6 +35,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_1xY_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Atom.SDK.Net, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Atom.SDK.Net.1.0.4\lib\Atom.SDK.Net.dll</HintPath>
@@ -113,6 +116,24 @@
     <Compile Include="Controls\searchLocationControl.Designer.cs">
       <DependentUpon>searchLocationControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="DedicatedIPForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DedicatedIPForm.Designer.cs">
+      <DependentUpon>DedicatedIPForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileShareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileShareForm.Designer.cs">
+      <DependentUpon>FileShareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternetFreedomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InternetFreedomForm.Designer.cs">
+      <DependentUpon>InternetFreedomForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +181,12 @@
     <Compile Include="SecurityForm.Designer.cs">
       <DependentUpon>SecurityForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SecurityPrivacyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecurityPrivacyForm.Designer.cs">
+      <DependentUpon>SecurityPrivacyForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SelectModeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,6 +213,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\searchLocationControl.resx">
       <DependentUpon>searchLocationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DedicatedIPForm.resx">
+      <DependentUpon>DedicatedIPForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileShareForm.resx">
+      <DependentUpon>FileShareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternetFreedomForm.resx">
+      <DependentUpon>InternetFreedomForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -214,6 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SecurityForm.resx">
       <DependentUpon>SecurityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecurityPrivacyForm.resx">
+      <DependentUpon>SecurityPrivacyForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectModeForm.resx">
       <DependentUpon>SelectModeForm.cs</DependentUpon>
@@ -483,7 +522,13 @@
   <ItemGroup>
     <None Include="Resources\flag-400 %282%29.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\internetFreedom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo_1xY_icon.ico" />
+    <None Include="Resources\pic.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Atom.SDK.Net.1.0.4\build\Atom.SDK.Net.targets" Condition="Exists('..\packages\Atom.SDK.Net.1.0.4\build\Atom.SDK.Net.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

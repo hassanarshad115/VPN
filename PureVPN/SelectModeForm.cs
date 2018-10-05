@@ -60,5 +60,39 @@ namespace PureVPN
             pa.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            InternetFreedomForm iff = new InternetFreedomForm();
+            if (iff == null)
+            {
+                iff.Parent = this;
+            }
+            iff.Show();
+            this.Hide();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            FileShareForm fsf = new FileShareForm();
+            if (fsf == null)
+            {
+                fsf.Parent = this;
+            }
+            fsf.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+            DedicatedIPForm dip = new DedicatedIPForm();
+            if (dip == null)
+            {
+                dip.Parent = this;
+            }
+            dip.Show();
+            this.Hide();
+        }
     }
 }

@@ -63,16 +63,16 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.countryControl1 = new PureVPN.Controls.countryControl();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.locationControl1 = new PureVPN.LocationControl();
             this.lblBack = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.countryControl1 = new PureVPN.Controls.countryControl();
+            this.locationControl1 = new PureVPN.LocationControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -256,6 +256,7 @@
             this.button8.TabIndex = 17;
             this.button8.Text = "connect";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // textBox2
             // 
@@ -509,14 +510,6 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Stream Content";
             // 
-            // countryControl1
-            // 
-            this.countryControl1.Location = new System.Drawing.Point(8, 58);
-            this.countryControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.countryControl1.Name = "countryControl1";
-            this.countryControl1.Size = new System.Drawing.Size(556, 139);
-            this.countryControl1.TabIndex = 3;
-            // 
             // button6
             // 
             this.button6.FlatAppearance.BorderSize = 0;
@@ -571,14 +564,6 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Karachi, Pakistan";
             // 
-            // locationControl1
-            // 
-            this.locationControl1.BackColor = System.Drawing.Color.Transparent;
-            this.locationControl1.Location = new System.Drawing.Point(38, 3);
-            this.locationControl1.Name = "locationControl1";
-            this.locationControl1.Size = new System.Drawing.Size(595, 67);
-            this.locationControl1.TabIndex = 0;
-            // 
             // lblBack
             // 
             this.lblBack.AutoSize = true;
@@ -615,7 +600,23 @@
             this.pictureBox10.TabIndex = 17;
             this.pictureBox10.TabStop = false;
             // 
-            // changeMode
+            // countryControl1
+            // 
+            this.countryControl1.Location = new System.Drawing.Point(8, 58);
+            this.countryControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.countryControl1.Name = "countryControl1";
+            this.countryControl1.Size = new System.Drawing.Size(556, 139);
+            this.countryControl1.TabIndex = 3;
+            // 
+            // locationControl1
+            // 
+            this.locationControl1.BackColor = System.Drawing.Color.Transparent;
+            this.locationControl1.Location = new System.Drawing.Point(38, 3);
+            this.locationControl1.Name = "locationControl1";
+            this.locationControl1.Size = new System.Drawing.Size(595, 67);
+            this.locationControl1.TabIndex = 0;
+            // 
+            // ChangeModeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -626,7 +627,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
-            this.Name = "changeMode";
+            this.Name = "ChangeModeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.changeMode_Load);
             this.panel1.ResumeLayout(false);
