@@ -11,9 +11,9 @@ namespace PureVPN.Controllers
     {
         public static bool AuthenticateLogin(string userName, string password)
         {
-            //MainSettings.AtomManagerInstance = new Credentials(userName, password);
 
             return true;
+            
         }
 
         private void payPayPayment()

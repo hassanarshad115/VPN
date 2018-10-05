@@ -22,7 +22,7 @@ namespace PureVPN
         {
             InitializeComponent();
 
-            MainSettings.ConfitureSystem();
+
         }
 
         private bool CheckErrors()
@@ -100,23 +100,26 @@ namespace PureVPN
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            if (CheckErrors() && LoginController.AuthenticateLogin(txtUserName.Text, txtPassword.Text))
+            MainSettings.OpenForm(this, new SelectModeForm());
+
+            //MainSettings.ConfitureSystem(txtUserName.Text, txtPassword.Text);
+
+            //if (CheckErrors() && LoginController.AuthenticateLogin(txtUserName.Text, txtPassword.Text))
+            //{
+
             {
-                using (SelectModeForm frm = new SelectModeForm())
-                {
-                    //frm.emailp = txtUsers.Text;
-                    //frm.passwordP = txtPass.Text;
+                //frm.emailp = txtUsers.Text;
+                //frm.passwordP = txtPass.Text;
 
-                    //if (frm == null)
-                    //{
-                    //    frm.Parent = this;
-                    //}
+                //if (frm == null)
+                //{
+                //    frm.Parent = this;
+                //}
 
-                    Hide();
-                    frm.ShowDialog();
-                    Show();
-                }
+
+
             }
+            //}
         }
     }
 }
