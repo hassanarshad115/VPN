@@ -123,6 +123,7 @@
             this.pbxInternetFreedom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbxInternetFreedom.TabIndex = 1;
             this.pbxInternetFreedom.TabStop = false;
+            this.pbxInternetFreedom.Click += new System.EventHandler(this.pbxInternetFreedom_Click);
             // 
             // panel2
             // 
@@ -143,6 +144,7 @@
             this.lblInternetFreedom.TabIndex = 0;
             this.lblInternetFreedom.Text = "Internet Freedom";
             this.lblInternetFreedom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblInternetFreedom.Click += new System.EventHandler(this.pbxInternetFreedom_Click);
             // 
             // panel3
             // 
@@ -165,6 +167,7 @@
             this.pbxSecurity.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbxSecurity.TabIndex = 1;
             this.pbxSecurity.TabStop = false;
+            this.pbxSecurity.Click += new System.EventHandler(this.pbxSecurity_Click);
             // 
             // panel4
             // 
@@ -393,6 +396,7 @@
             this.MaximizeBox = false;
             this.Name = "SelectModeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SelectModeForm_FormClosed);
             this.Load += new System.EventHandler(this.SelectModeForm_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbxInternetFreedom)).EndInit();

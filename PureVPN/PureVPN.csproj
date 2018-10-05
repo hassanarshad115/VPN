@@ -91,10 +91,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ModeForms\ChangeModeForm.cs">
+    <Compile Include="Views\ModeForms\ChangeModeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModeForms\ChangeModeForm.Designer.cs">
+    <Compile Include="Views\ModeForms\ChangeModeForm.Designer.cs">
       <DependentUpon>ChangeModeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Controllers\LoginController.cs" />
@@ -116,50 +116,50 @@
     <Compile Include="Controls\searchLocationControl.Designer.cs">
       <DependentUpon>searchLocationControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModeForms\DedicatedIPForm.cs">
+    <Compile Include="Views\ModeForms\DedicatedIPForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModeForms\DedicatedIPForm.Designer.cs">
+    <Compile Include="Views\ModeForms\DedicatedIPForm.Designer.cs">
       <DependentUpon>DedicatedIPForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModeForms\FileShareForm.cs">
+    <Compile Include="Views\ModeForms\FileShareForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModeForms\FileShareForm.Designer.cs">
+    <Compile Include="Views\ModeForms\FileShareForm.Designer.cs">
       <DependentUpon>FileShareForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Interface\IParent.cs" />
-    <Compile Include="ModeForms\InternetFreedomForm.cs">
+    <Compile Include="Views\ModeForms\InternetFreedomForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModeForms\InternetFreedomForm.Designer.cs">
+    <Compile Include="Views\ModeForms\InternetFreedomForm.Designer.cs">
       <DependentUpon>InternetFreedomForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="Views\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LogOutBoxForm.cs">
+    <Compile Include="Views\LogOutBoxForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LogOutBoxForm.Designer.cs">
+    <Compile Include="Views\LogOutBoxForm.Designer.cs">
       <DependentUpon>LogOutBoxForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainSettings.cs" />
     <Compile Include="Models\GetPaymentDetails.cs" />
     <Compile Include="Models\UDatabase.cs" />
-    <Compile Include="PayPalForm.cs">
+    <Compile Include="Views\PayPalForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PayPalForm.Designer.cs">
+    <Compile Include="Views\PayPalForm.Designer.cs">
       <DependentUpon>PayPalForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="PreferenceForm.cs">
+    <Compile Include="Views\PreferenceForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PreferenceForm.Designer.cs">
+    <Compile Include="Views\PreferenceForm.Designer.cs">
       <DependentUpon>PreferenceForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -170,37 +170,37 @@
     <Compile Include="Controls\LocationControl.Designer.cs">
       <DependentUpon>LocationControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="PureVPNForm.cs">
+    <Compile Include="Views\PureVPNForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PureVPNForm.Designer.cs">
+    <Compile Include="Views\PureVPNForm.Designer.cs">
       <DependentUpon>PureVPNForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SecurityForm.cs">
+    <Compile Include="Views\SecurityForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SecurityForm.Designer.cs">
+    <Compile Include="Views\SecurityForm.Designer.cs">
       <DependentUpon>SecurityForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SecurityPrivacyForm.cs">
+    <Compile Include="Views\ModeForms\SecurityPrivacyForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SecurityPrivacyForm.Designer.cs">
+    <Compile Include="Views\ModeForms\SecurityPrivacyForm.Designer.cs">
       <DependentUpon>SecurityPrivacyForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SelectModeForm.cs">
+    <Compile Include="Views\ModeForms\SelectModeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectModeForm.Designer.cs">
+    <Compile Include="Views\ModeForms\SelectModeForm.Designer.cs">
       <DependentUpon>SelectModeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateForm.cs">
+    <Compile Include="Views\UpdateForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateForm.Designer.cs">
+    <Compile Include="Views\UpdateForm.Designer.cs">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ModeForms\ChangeModeForm.resx">
+    <EmbeddedResource Include="Views\ModeForms\ChangeModeForm.resx">
       <DependentUpon>ChangeModeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\countryControl.resx">
@@ -215,25 +215,25 @@
     <EmbeddedResource Include="Controls\searchLocationControl.resx">
       <DependentUpon>searchLocationControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModeForms\DedicatedIPForm.resx">
+    <EmbeddedResource Include="Views\ModeForms\DedicatedIPForm.resx">
       <DependentUpon>DedicatedIPForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModeForms\FileShareForm.resx">
+    <EmbeddedResource Include="Views\ModeForms\FileShareForm.resx">
       <DependentUpon>FileShareForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModeForms\InternetFreedomForm.resx">
+    <EmbeddedResource Include="Views\ModeForms\InternetFreedomForm.resx">
       <DependentUpon>InternetFreedomForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
+    <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LogOutBoxForm.resx">
+    <EmbeddedResource Include="Views\LogOutBoxForm.resx">
       <DependentUpon>LogOutBoxForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PayPalForm.resx">
+    <EmbeddedResource Include="Views\PayPalForm.resx">
       <DependentUpon>PayPalForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PreferenceForm.resx">
+    <EmbeddedResource Include="Views\PreferenceForm.resx">
       <DependentUpon>PreferenceForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -246,19 +246,19 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="PureVPNForm.resx">
+    <EmbeddedResource Include="Views\PureVPNForm.resx">
       <DependentUpon>PureVPNForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SecurityForm.resx">
+    <EmbeddedResource Include="Views\SecurityForm.resx">
       <DependentUpon>SecurityForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SecurityPrivacyForm.resx">
+    <EmbeddedResource Include="Views\ModeForms\SecurityPrivacyForm.resx">
       <DependentUpon>SecurityPrivacyForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectModeForm.resx">
+    <EmbeddedResource Include="Views\ModeForms\SelectModeForm.resx">
       <DependentUpon>SelectModeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateForm.resx">
+    <EmbeddedResource Include="Views\UpdateForm.resx">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
