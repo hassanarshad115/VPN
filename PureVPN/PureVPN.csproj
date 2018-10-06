@@ -279,11 +279,17 @@
     <EmbeddedResource Include="Controls\PreferenceControls\AppSettingsControl.resx">
       <DependentUpon>AppSettingsControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreferenceControls\CheckForUpdatesControl.resx">
+      <DependentUpon>CheckForUpdatesControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\PreferenceControls\HelpAndFeedBackControl.resx">
       <DependentUpon>HelpAndFeedBackControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\PreferenceControls\InvitePeopleControl.resx">
       <DependentUpon>InvitePeopleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreferenceControls\PortForwardingControl.resx">
+      <DependentUpon>PortForwardingControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\PreferenceControls\SelectModeControl.resx">
       <DependentUpon>SelectModeControl.cs</DependentUpon>
@@ -629,8 +635,16 @@
   <ItemGroup>
     <Content Include="fav.ico" />
     <Content Include="logo_1xY_icon.ico" />
+    <None Include="Resources\fav1.ico" />
+    <Content Include="Resources\file.jpg" />
+    <Content Include="Resources\pcHotspot.jpg" />
+    <Content Include="Resources\PERSON.png" />
+    <Content Include="Resources\portforwarding.png" />
+    <Content Include="Resources\question.png" />
+    <Content Include="Resources\tiket.png" />
     <None Include="Resources\fav.ico" />
     <Content Include="Resources\g.jpg" />
+    <Content Include="Resources\hotspot.png" />
     <Content Include="Resources\mozila.jpg" />
     <None Include="Resources\PureVPN.png" />
     <None Include="Resources\logo_1xY_icon.ico" />

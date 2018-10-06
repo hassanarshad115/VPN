@@ -155,49 +155,49 @@ namespace PureVPN
         }
         private void pnlSecurity_Click(object sender, EventArgs e)
         {
-            pSecurity.Visible = true;
-            pInternet.Visible = false;
+            //pSecurity.Visible = true;
+            //pInternet.Visible = false;
         }
 
         private void pnlInterNet_Click(object sender, EventArgs e)
         {
-            pSecurity.Visible = false;
-            pInternet.Visible = true;
+            //pSecurity.Visible = false;
+            //pInternet.Visible = true;
         }
         private void pic2_Click(object sender, EventArgs e)
         {
-            pSecurity.Visible = false;
-            pInternet.Visible = true;
-            pnlport.Visible = false;
+            //pSecurity.Visible = false;
+            //pInternet.Visible = true;
+            //pnlport.Visible = false;
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            pnlport.Visible = true;
-            pSecurity.Visible = false;
-            pInternet.Visible = false;
+            //pnlport.Visible = true;
+            //pSecurity.Visible = false;
+            //pInternet.Visible = false;
 
         }
 
         private void pic1_Click_1(object sender, EventArgs e)
         {
-            pSecurity.Visible = true;
-            pInternet.Visible = false;
-            pnlport.Visible = false;
+            //pSecurity.Visible = true;
+            //pInternet.Visible = false;
+            //pnlport.Visible = false;
         }
 
         private void btnSplits_Click(object sender, EventArgs e)
         {
-            pnlTunneling.Visible = true;
-            flowOption.Visible = false;
-            pnlport.Visible = false;
-            pInternet.Visible = false;
-            pSecurity.Visible = false;
-            profilePnl.Visible = false;
-            appSetting.Visible = false;
+            //pnlTunneling.Visible = true;
+            //flowOption.Visible = false;
+            //pnlport.Visible = false;
+            //pInternet.Visible = false;
+            //pSecurity.Visible = false;
+            //profilePnl.Visible = false;
+            //appSetting.Visible = false;
 
 
-            if (pnlTunneling.Visible == true)
+          //  if (pnlTunneling.Visible == true)
             {
                 btnSplits.BackColor = Color.Green;
                 btnSplits.ForeColor = Color.White;
@@ -272,23 +272,23 @@ namespace PureVPN
         {
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["VPN"].ConnectionString);
             con.Open();
-            SqlCommand cmd = new SqlCommand("update Users set uPassword='" + txtPass.Text + "' where uEmail='" + txtName.Text + "'", con);
+          ///  SqlCommand cmd = new SqlCommand("update Users set uPassword='" + txtPass.Text + "' where uEmail='" + txtName.Text + "'", con);
             SqlDataAdapter da = new SqlDataAdapter();
 
-            da.SelectCommand = cmd;
+          //  da.SelectCommand = cmd;
             DataSet ds = new DataSet();
             da.Fill(ds);
             con.Close();
             Information.InformationMessage("Your password is update successfully");
         }
- 
-            
-        
+
+
+
         private void Country_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
-            if (Country.SelectedItem.ToString() =="English")
-            {
+
+            //   if (Country.SelectedItem.ToString() =="English")
+            //   {
 
             //    for (int i = 0; i < this.Controls.Count; i++)
             //    {
@@ -722,7 +722,7 @@ namespace PureVPN
             //    america.Visible = false;
             //    Turkish.Visible = false;
             //    Spanish.Visible = false;
-                
+
             //}
             //else
             //    if (Country.SelectedItem.ToString()== "Spanish")
@@ -773,8 +773,8 @@ namespace PureVPN
             //    Turkish.Visible = false;
 
             //}
+            //  }
         }
-
         private System.Timers.Timer MonitorTimer;
         private void disconnect_CheckedChanged(object sender, EventArgs e)
         {
