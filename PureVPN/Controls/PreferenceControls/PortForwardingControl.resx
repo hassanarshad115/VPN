@@ -117,10 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Invite your friends, family members and colleagues to PureVFN 
-and spread the joy of complete internet freedom, security,
-privacy, and anonymity to them.Also,there might be some 
-rewards hidden every now and then for your efforts!</value>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Port Forwarding is an important feature which
+ allows you to access a device or server from
+anywhere.It comes in handy when you need to
+access an internet-connected devece or servece 
+              from anywhere in the world.</value>
   </data>
 </root>

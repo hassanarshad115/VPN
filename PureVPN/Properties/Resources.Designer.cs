@@ -233,6 +233,16 @@ namespace PureVPN.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _67_51211 {
+            get {
+                object obj = ResourceManager.GetObject("67-51211", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8ca486faebd822ddf4baf00321b16df1_google_icon_logo_by_vexels {
             get {
                 object obj = ResourceManager.GetObject("8ca486faebd822ddf4baf00321b16df1-google-icon-logo-by-vexels", resourceCulture);
@@ -266,6 +276,16 @@ namespace PureVPN.Properties {
         internal static System.Drawing.Bitmap arrow_down_icon_png_3 {
             get {
                 object obj = ResourceManager.GetObject("arrow-down-icon-png-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow_down_icon_png_31 {
+            get {
+                object obj = ResourceManager.GetObject("arrow-down-icon-png-31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -433,9 +453,29 @@ namespace PureVPN.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fav1 {
+            get {
+                object obj = ResourceManager.GetObject("fav1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap favicon {
             get {
                 object obj = ResourceManager.GetObject("favicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file {
+            get {
+                object obj = ResourceManager.GetObject("file", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -506,6 +546,16 @@ namespace PureVPN.Properties {
         internal static System.Drawing.Bitmap Green_circle_small_svg_med {
             get {
                 object obj = ResourceManager.GetObject("Green-circle-small.svg.med", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hotspot {
+            get {
+                object obj = ResourceManager.GetObject("hotspot", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -754,9 +804,39 @@ namespace PureVPN.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pcHotspot {
+            get {
+                object obj = ResourceManager.GetObject("pcHotspot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PERSON {
+            get {
+                object obj = ResourceManager.GetObject("PERSON", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pic {
             get {
                 object obj = ResourceManager.GetObject("pic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap portforwarding {
+            get {
+                object obj = ResourceManager.GetObject("portforwarding", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -777,6 +857,16 @@ namespace PureVPN.Properties {
         internal static System.Drawing.Bitmap PureVPN {
             get {
                 object obj = ResourceManager.GetObject("PureVPN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap question {
+            get {
+                object obj = ResourceManager.GetObject("question", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -827,6 +917,16 @@ namespace PureVPN.Properties {
         internal static System.Drawing.Bitmap setting__config__tools__cog__5122 {
             get {
                 object obj = ResourceManager.GetObject("setting__config__tools__cog_-5122", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tiket {
+            get {
+                object obj = ResourceManager.GetObject("tiket", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

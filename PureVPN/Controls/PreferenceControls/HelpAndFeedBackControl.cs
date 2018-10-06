@@ -16,5 +16,10 @@ namespace PureVPN.Controls.PreferenceControls
         {
             InitializeComponent();
         }
+
+        private void pnlport_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

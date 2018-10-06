@@ -117,4 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label8.Text" xml:space="preserve">
+    <value>We started our journey back in 2007,and since then
+we have come a long way.With time we have 
+managed to not only improve our service,but have
+been able to offer innovative features and proprietary
+apps simultaneously.Regardless of the platform or
+device in question,we have you covered.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>PureVFN specifically caters indidviduals and businesses
+in dire need of an online protection that renders them
+invisible form ccybercriminals,third-party agencies
+along with their ISPs.We wholeheartedly believe in a 
+free internet,where one can be safe and at ease,
+without any hassles whatsoever.</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>PureVFN's ides forum is where our users can voice their 
+opitinion,share their suggestions,identify improvements,
+and point out our mistakes.Our team is looking forward to 
+your feedback and addressing it at the earliest.</value>
+  </data>
 </root>

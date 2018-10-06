@@ -117,10 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Invite your friends, family members and colleagues to PureVFN 
-and spread the joy of complete internet freedom, security,
-privacy, and anonymity to them.Also,there might be some 
-rewards hidden every now and then for your efforts!</value>
-  </data>
 </root>

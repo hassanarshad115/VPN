@@ -197,23 +197,23 @@ namespace PureVPN
             //appSetting.Visible = false;
 
 
-            //if (pnlTunneling.Visible == true)
-            //{
-            //    btnSplits.BackColor = Color.Green;
-            //    btnSplits.ForeColor = Color.White;
-            //    btnAppSetting.BackColor = Color.White;
-            //    btnAppSetting.ForeColor = Color.Black;
-            //    btnProfile.BackColor = Color.White;
-            //    btnProfile.ForeColor = Color.Black;
-            //    btnSelectMode.BackColor = Color.White;
-            //    btnSelectMode.ForeColor = Color.Black;
-            //    btnOptions.BackColor = Color.White;
-            //    btnOptions.ForeColor = Color.Black;
-            //    btnLogOut.BackColor = Color.White;
-            //    btnLogOut.ForeColor = Color.Black;
-            //    btnCheckUpdate.BackColor = Color.White;
-            //    btnCheckUpdate.ForeColor = Color.Black;
-            //}
+          //  if (pnlTunneling.Visible == true)
+            {
+                btnSplits.BackColor = Color.Green;
+                btnSplits.ForeColor = Color.White;
+                btnAppSetting.BackColor = Color.White;
+                btnAppSetting.ForeColor = Color.Black;
+                btnProfile.BackColor = Color.White;
+                btnProfile.ForeColor = Color.Black;
+                btnSelectMode.BackColor = Color.White;
+                btnSelectMode.ForeColor = Color.Black;
+                btnOptions.BackColor = Color.White;
+                btnOptions.ForeColor = Color.Black;
+                btnLogOut.BackColor = Color.White;
+                btnLogOut.ForeColor = Color.Black;
+                btnCheckUpdate.BackColor = Color.White;
+                btnCheckUpdate.ForeColor = Color.Black;
+            }
         }
 
         private void btnCheckUpdate_Click(object sender, EventArgs e)
@@ -272,23 +272,23 @@ namespace PureVPN
         {
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["VPN"].ConnectionString);
             con.Open();
-            //SqlCommand cmd = new SqlCommand("update Users set uPassword='" + txtPass.Text + "' where uEmail='" + txtName.Text + "'", con);
+          ///  SqlCommand cmd = new SqlCommand("update Users set uPassword='" + txtPass.Text + "' where uEmail='" + txtName.Text + "'", con);
             SqlDataAdapter da = new SqlDataAdapter();
 
-            //da.SelectCommand = cmd;
-            //DataSet ds = new DataSet();
-            //da.Fill(ds);
-            //con.Close();
+          //  da.SelectCommand = cmd;
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            con.Close();
             Information.InformationMessage("Your password is update successfully");
         }
- 
-            
-        
+
+
+
         private void Country_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
-            //if (Country.SelectedItem.ToString() =="English")
-            //{
+
+            //   if (Country.SelectedItem.ToString() =="English")
+            //   {
 
             //    for (int i = 0; i < this.Controls.Count; i++)
             //    {
@@ -722,7 +722,7 @@ namespace PureVPN
             //    america.Visible = false;
             //    Turkish.Visible = false;
             //    Spanish.Visible = false;
-                
+
             //}
             //else
             //    if (Country.SelectedItem.ToString()== "Spanish")
@@ -773,8 +773,8 @@ namespace PureVPN
             //    Turkish.Visible = false;
 
             //}
+            //  }
         }
-
         private System.Timers.Timer MonitorTimer;
         private void disconnect_CheckedChanged(object sender, EventArgs e)
         {

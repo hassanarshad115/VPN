@@ -30,10 +30,23 @@
         {
             this.appSetting = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label29 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.German = new System.Windows.Forms.PictureBox();
+            this.Italian = new System.Windows.Forms.PictureBox();
+            this.Spanish = new System.Windows.Forms.PictureBox();
+            this.Dutch = new System.Windows.Forms.PictureBox();
+            this.Chinese = new System.Windows.Forms.PictureBox();
+            this.Arabic = new System.Windows.Forms.PictureBox();
             this.Country = new System.Windows.Forms.ComboBox();
+            this.Turkish = new System.Windows.Forms.PictureBox();
+            this.america = new System.Windows.Forms.PictureBox();
+            this.French = new System.Windows.Forms.PictureBox();
             this.label30 = new System.Windows.Forms.Label();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox9 = new System.Windows.Forms.CheckBox();
@@ -42,27 +55,19 @@
             this.checkBox13 = new System.Windows.Forms.CheckBox();
             this.checkBox14 = new System.Windows.Forms.CheckBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.German = new System.Windows.Forms.PictureBox();
-            this.Italian = new System.Windows.Forms.PictureBox();
-            this.Spanish = new System.Windows.Forms.PictureBox();
-            this.Dutch = new System.Windows.Forms.PictureBox();
-            this.Chinese = new System.Windows.Forms.PictureBox();
-            this.Arabic = new System.Windows.Forms.PictureBox();
-            this.Turkish = new System.Windows.Forms.PictureBox();
-            this.america = new System.Windows.Forms.PictureBox();
-            this.French = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.appSetting.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.German)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Italian)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Spanish)).BeginInit();
@@ -73,6 +78,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.america)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.French)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // appSetting
@@ -98,15 +108,60 @@
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.pictureBox4);
+            this.panel5.Controls.Add(this.pictureBox5);
             this.panel5.Controls.Add(this.pictureBox17);
             this.panel5.Controls.Add(this.pictureBox16);
+            this.panel5.Controls.Add(this.pictureBox3);
             this.panel5.Controls.Add(this.pictureBox15);
             this.panel5.Controls.Add(this.pictureBox10);
+            this.panel5.Controls.Add(this.pictureBox2);
             this.panel5.Controls.Add(this.comboBox2);
+            this.panel5.Controls.Add(this.pictureBox1);
             this.panel5.Location = new System.Drawing.Point(75, 253);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(284, 38);
             this.panel5.TabIndex = 30;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = global::PureVPN.Properties.Resources.download__1_;
+            this.pictureBox17.Location = new System.Drawing.Point(178, 10);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(20, 21);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox17.TabIndex = 26;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = global::PureVPN.Properties.Resources.download__1_;
+            this.pictureBox16.Location = new System.Drawing.Point(197, 10);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(22, 21);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox16.TabIndex = 25;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = global::PureVPN.Properties.Resources.download__1_;
+            this.pictureBox15.Location = new System.Drawing.Point(215, 10);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(20, 21);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox15.TabIndex = 24;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::PureVPN.Properties.Resources.download__1_;
+            this.pictureBox10.Location = new System.Drawing.Point(234, 10);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(20, 21);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox10.TabIndex = 23;
+            this.pictureBox10.TabStop = false;
             // 
             // comboBox2
             // 
@@ -148,6 +203,7 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.america);
             this.panel2.Controls.Add(this.German);
             this.panel2.Controls.Add(this.Italian);
             this.panel2.Controls.Add(this.Spanish);
@@ -156,12 +212,71 @@
             this.panel2.Controls.Add(this.Arabic);
             this.panel2.Controls.Add(this.Country);
             this.panel2.Controls.Add(this.Turkish);
-            this.panel2.Controls.Add(this.america);
             this.panel2.Controls.Add(this.French);
             this.panel2.Location = new System.Drawing.Point(75, 335);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(284, 38);
             this.panel2.TabIndex = 25;
+            // 
+            // German
+            // 
+            this.German.Image = global::PureVPN.Properties.Resources.images2;
+            this.German.Location = new System.Drawing.Point(1, 2);
+            this.German.Name = "German";
+            this.German.Size = new System.Drawing.Size(44, 33);
+            this.German.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.German.TabIndex = 26;
+            this.German.TabStop = false;
+            // 
+            // Italian
+            // 
+            this.Italian.Image = global::PureVPN.Properties.Resources.IT_Italy_Flag_icon;
+            this.Italian.Location = new System.Drawing.Point(2, 2);
+            this.Italian.Name = "Italian";
+            this.Italian.Size = new System.Drawing.Size(44, 33);
+            this.Italian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Italian.TabIndex = 23;
+            this.Italian.TabStop = false;
+            // 
+            // Spanish
+            // 
+            this.Spanish.Image = global::PureVPN.Properties.Resources.flag_400__2_;
+            this.Spanish.Location = new System.Drawing.Point(3, 2);
+            this.Spanish.Name = "Spanish";
+            this.Spanish.Size = new System.Drawing.Size(44, 33);
+            this.Spanish.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Spanish.TabIndex = 43;
+            this.Spanish.TabStop = false;
+            // 
+            // Dutch
+            // 
+            this.Dutch.Image = global::PureVPN.Properties.Resources._2982_004_ABEB3852;
+            this.Dutch.Location = new System.Drawing.Point(4, 2);
+            this.Dutch.Name = "Dutch";
+            this.Dutch.Size = new System.Drawing.Size(44, 33);
+            this.Dutch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Dutch.TabIndex = 24;
+            this.Dutch.TabStop = false;
+            // 
+            // Chinese
+            // 
+            this.Chinese.Image = global::PureVPN.Properties.Resources.download__5_1;
+            this.Chinese.Location = new System.Drawing.Point(4, 2);
+            this.Chinese.Name = "Chinese";
+            this.Chinese.Size = new System.Drawing.Size(44, 33);
+            this.Chinese.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Chinese.TabIndex = 44;
+            this.Chinese.TabStop = false;
+            // 
+            // Arabic
+            // 
+            this.Arabic.Image = global::PureVPN.Properties.Resources.download1;
+            this.Arabic.Location = new System.Drawing.Point(3, 2);
+            this.Arabic.Name = "Arabic";
+            this.Arabic.Size = new System.Drawing.Size(44, 33);
+            this.Arabic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Arabic.TabIndex = 44;
+            this.Arabic.TabStop = false;
             // 
             // Country
             // 
@@ -180,6 +295,36 @@
             this.Country.Name = "Country";
             this.Country.Size = new System.Drawing.Size(229, 28);
             this.Country.TabIndex = 22;
+            // 
+            // Turkish
+            // 
+            this.Turkish.Image = global::PureVPN.Properties.Resources.flag_4001;
+            this.Turkish.Location = new System.Drawing.Point(4, 2);
+            this.Turkish.Name = "Turkish";
+            this.Turkish.Size = new System.Drawing.Size(44, 33);
+            this.Turkish.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Turkish.TabIndex = 28;
+            this.Turkish.TabStop = false;
+            // 
+            // america
+            // 
+            this.america.Image = global::PureVPN.Properties.Resources.american_flag_icon;
+            this.america.Location = new System.Drawing.Point(2, 2);
+            this.america.Name = "america";
+            this.america.Size = new System.Drawing.Size(44, 33);
+            this.america.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.america.TabIndex = 27;
+            this.america.TabStop = false;
+            // 
+            // French
+            // 
+            this.French.Image = global::PureVPN.Properties.Resources.flag_400__1_;
+            this.French.Location = new System.Drawing.Point(3, 3);
+            this.French.Name = "French";
+            this.French.Size = new System.Drawing.Size(44, 33);
+            this.French.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.French.TabIndex = 42;
+            this.French.TabStop = false;
             // 
             // label30
             // 
@@ -273,136 +418,6 @@
             this.label31.TabIndex = 14;
             this.label31.Text = "App Settings";
             // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::PureVPN.Properties.Resources.download__1_;
-            this.pictureBox17.Location = new System.Drawing.Point(172, 10);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(20, 21);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox17.TabIndex = 26;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = global::PureVPN.Properties.Resources.download__1_;
-            this.pictureBox16.Location = new System.Drawing.Point(191, 10);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(22, 21);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox16.TabIndex = 25;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = global::PureVPN.Properties.Resources.download__1_;
-            this.pictureBox15.Location = new System.Drawing.Point(209, 10);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(20, 21);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox15.TabIndex = 24;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::PureVPN.Properties.Resources.download__1_;
-            this.pictureBox10.Location = new System.Drawing.Point(228, 10);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(20, 21);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox10.TabIndex = 23;
-            this.pictureBox10.TabStop = false;
-            // 
-            // German
-            // 
-            this.German.Image = global::PureVPN.Properties.Resources.images2;
-            this.German.Location = new System.Drawing.Point(3, 2);
-            this.German.Name = "German";
-            this.German.Size = new System.Drawing.Size(44, 33);
-            this.German.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.German.TabIndex = 26;
-            this.German.TabStop = false;
-            // 
-            // Italian
-            // 
-            this.Italian.Image = global::PureVPN.Properties.Resources.IT_Italy_Flag_icon;
-            this.Italian.Location = new System.Drawing.Point(3, 2);
-            this.Italian.Name = "Italian";
-            this.Italian.Size = new System.Drawing.Size(44, 33);
-            this.Italian.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.Italian.TabIndex = 23;
-            this.Italian.TabStop = false;
-            // 
-            // Spanish
-            // 
-            this.Spanish.Image = global::PureVPN.Properties.Resources.flag_400__2_;
-            this.Spanish.Location = new System.Drawing.Point(3, 2);
-            this.Spanish.Name = "Spanish";
-            this.Spanish.Size = new System.Drawing.Size(44, 33);
-            this.Spanish.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.Spanish.TabIndex = 43;
-            this.Spanish.TabStop = false;
-            // 
-            // Dutch
-            // 
-            this.Dutch.Image = global::PureVPN.Properties.Resources._2982_004_ABEB3852;
-            this.Dutch.Location = new System.Drawing.Point(3, 2);
-            this.Dutch.Name = "Dutch";
-            this.Dutch.Size = new System.Drawing.Size(44, 33);
-            this.Dutch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.Dutch.TabIndex = 24;
-            this.Dutch.TabStop = false;
-            // 
-            // Chinese
-            // 
-            this.Chinese.Image = global::PureVPN.Properties.Resources.download__5_1;
-            this.Chinese.Location = new System.Drawing.Point(3, 2);
-            this.Chinese.Name = "Chinese";
-            this.Chinese.Size = new System.Drawing.Size(44, 33);
-            this.Chinese.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.Chinese.TabIndex = 44;
-            this.Chinese.TabStop = false;
-            // 
-            // Arabic
-            // 
-            this.Arabic.Image = global::PureVPN.Properties.Resources.download1;
-            this.Arabic.Location = new System.Drawing.Point(3, 2);
-            this.Arabic.Name = "Arabic";
-            this.Arabic.Size = new System.Drawing.Size(44, 33);
-            this.Arabic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.Arabic.TabIndex = 44;
-            this.Arabic.TabStop = false;
-            // 
-            // Turkish
-            // 
-            this.Turkish.Image = global::PureVPN.Properties.Resources.flag_4001;
-            this.Turkish.Location = new System.Drawing.Point(3, 2);
-            this.Turkish.Name = "Turkish";
-            this.Turkish.Size = new System.Drawing.Size(44, 33);
-            this.Turkish.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.Turkish.TabIndex = 28;
-            this.Turkish.TabStop = false;
-            // 
-            // america
-            // 
-            this.america.Image = global::PureVPN.Properties.Resources.american_flag_icon;
-            this.america.Location = new System.Drawing.Point(3, 2);
-            this.america.Name = "america";
-            this.america.Size = new System.Drawing.Size(44, 33);
-            this.america.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.america.TabIndex = 27;
-            this.america.TabStop = false;
-            // 
-            // French
-            // 
-            this.French.Image = global::PureVPN.Properties.Resources.flag_400__1_;
-            this.French.Location = new System.Drawing.Point(3, 3);
-            this.French.Name = "French";
-            this.French.Size = new System.Drawing.Size(44, 33);
-            this.French.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.French.TabIndex = 42;
-            this.French.TabStop = false;
-            // 
             // pictureBox8
             // 
             this.pictureBox8.Image = global::PureVPN.Properties.Resources.setting__config__tools__cog__5122;
@@ -412,6 +427,56 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox8.TabIndex = 13;
             this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PureVPN.Properties.Resources.download__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(146, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(20, 21);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PureVPN.Properties.Resources._291205;
+            this.pictureBox2.Location = new System.Drawing.Point(127, 10);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 21);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 24;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::PureVPN.Properties.Resources._291205;
+            this.pictureBox3.Location = new System.Drawing.Point(109, 10);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(22, 21);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 25;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::PureVPN.Properties.Resources._291205;
+            this.pictureBox4.Location = new System.Drawing.Point(90, 10);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(20, 21);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 26;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::PureVPN.Properties.Resources._291205;
+            this.pictureBox5.Location = new System.Drawing.Point(146, 10);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(20, 21);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox5.TabIndex = 26;
+            this.pictureBox5.TabStop = false;
             // 
             // AppSettingsControl
             // 
@@ -424,11 +489,11 @@
             this.appSetting.ResumeLayout(false);
             this.appSetting.PerformLayout();
             this.panel5.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.German)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Italian)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Spanish)).EndInit();
@@ -439,6 +504,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.america)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.French)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -473,5 +543,10 @@
         private System.Windows.Forms.CheckBox checkBox14;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
