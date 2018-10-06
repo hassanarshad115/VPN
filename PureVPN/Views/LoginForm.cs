@@ -37,16 +37,6 @@ namespace PureVPN
 
         }
 
-        private void lblBack_Click(object sender, EventArgs e)
-        {
-            using (PayPalForm frm = new PayPalForm())
-            {
-                Hide();
-                frm.ShowDialog();
-                Show();
-            }
-        }
-
         private void txtUserName_Enter(object sender, EventArgs e)
         {
             if (txtUserName.Text == "Username")
@@ -86,10 +76,7 @@ namespace PureVPN
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            SelectModeForm frm = new SelectModeForm();
-            (frm as IParent).ParentForm = this;
-            frm.Show();
-            Hide();
+            MainForm.OpenForm(new SelectModeForm());
         }
     }
 }

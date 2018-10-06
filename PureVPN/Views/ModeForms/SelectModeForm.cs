@@ -19,33 +19,29 @@ namespace PureVPN
 
         }
 
-        private void SelectModeForm_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Environment.Exit(0);
-        }
-
         private void pbxStream_Click(object sender, EventArgs e)
         {
-            StreamModeForm smf = new StreamModeForm();
-            //(smf as IParent).ParentForm = ParentForm;                     ye set krna ha
-            smf.Show();
-            Hide();
+            MainForm.OpenForm(new StreamModeForm());
         }
 
         private void pbxInternetFreedom_Click(object sender, EventArgs e)
         {
-            InternetFreedomForm frm = new InternetFreedomForm();
-            (frm as IParent).ParentForm = ParentForm;
-            frm.Show();
-            Hide();
+            MainForm.OpenForm(new InternetFreedomForm());
         }
 
         private void pbxSecurity_Click(object sender, EventArgs e)
         {
-            InternetFreedomForm frm = new InternetFreedomForm();
-            (frm as IParent).ParentForm = ParentForm;
-            frm.Show();
-            Hide();
+            MainForm.OpenForm(new SecurityPrivacyForm());
+        }
+
+        private void pbxFileShare_Click(object sender, EventArgs e)
+        {
+            MainForm.OpenForm(new FileShareForm());
+        }
+
+        private void pbxDedicatedIp_Click(object sender, EventArgs e)
+        {
+            MainForm.OpenForm(new DedicatedIPForm());
         }
     }
 }
