@@ -91,7 +91,73 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\PreferenceControls\AdvancedOptionsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\AdvancedOptionsControl.Designer.cs">
+      <DependentUpon>AdvancedOptionsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\AppSettingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\AppSettingsControl.Designer.cs">
+      <DependentUpon>AppSettingsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\CheckForUpdatesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\CheckForUpdatesControl.Designer.cs">
+      <DependentUpon>CheckForUpdatesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\HelpAndFeedBackControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\HelpAndFeedBackControl.Designer.cs">
+      <DependentUpon>HelpAndFeedBackControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\InvitePeopleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\InvitePeopleControl.Designer.cs">
+      <DependentUpon>InvitePeopleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\PortForwardingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\PortForwardingControl.Designer.cs">
+      <DependentUpon>PortForwardingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\SelectModeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\SelectModeControl.Designer.cs">
+      <DependentUpon>SelectModeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\SplitTunnelingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\SplitTunnelingControl.Designer.cs">
+      <DependentUpon>SplitTunnelingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\SupportTicketControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\SupportTicketControl.Designer.cs">
+      <DependentUpon>SupportTicketControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\VPNHostingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PreferenceControls\VPNHostingControl.Designer.cs">
+      <DependentUpon>VPNHostingControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="InformationClass.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\ModeForms\ChangeModeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,10 +243,10 @@
     <Compile Include="Controls\LocationControl.Designer.cs">
       <DependentUpon>LocationControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\PureVPNForm.cs">
+    <Compile Include="Views\ModeForms\PureVPNForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\PureVPNForm.Designer.cs">
+    <Compile Include="Views\ModeForms\PureVPNForm.Designer.cs">
       <DependentUpon>PureVPNForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\SecurityForm.cs">
@@ -207,6 +273,30 @@
     <Compile Include="Views\UpdateForm.Designer.cs">
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controls\PreferenceControls\AdvancedOptionsControl.resx">
+      <DependentUpon>AdvancedOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreferenceControls\AppSettingsControl.resx">
+      <DependentUpon>AppSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreferenceControls\HelpAndFeedBackControl.resx">
+      <DependentUpon>HelpAndFeedBackControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreferenceControls\InvitePeopleControl.resx">
+      <DependentUpon>InvitePeopleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreferenceControls\SelectModeControl.resx">
+      <DependentUpon>SelectModeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreferenceControls\SplitTunnelingControl.resx">
+      <DependentUpon>SplitTunnelingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreferenceControls\SupportTicketControl.resx">
+      <DependentUpon>SupportTicketControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreferenceControls\VPNHostingControl.resx">
+      <DependentUpon>VPNHostingControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\ModeForms\ChangeModeForm.resx">
       <DependentUpon>ChangeModeForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -256,7 +346,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Views\PureVPNForm.resx">
+    <EmbeddedResource Include="Views\ModeForms\PureVPNForm.resx">
       <DependentUpon>PureVPNForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\SecurityForm.resx">
@@ -547,6 +637,7 @@
     <None Include="Resources\logo_1xY_icon1.ico" />
     <None Include="Resources\pic.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Atom.SDK.Net.1.0.4\build\Atom.SDK.Net.targets" Condition="Exists('..\packages\Atom.SDK.Net.1.0.4\build\Atom.SDK.Net.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

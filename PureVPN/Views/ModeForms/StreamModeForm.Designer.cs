@@ -188,7 +188,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PureVPN.Properties.Resources.images__3_;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(28, 50);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(225, 115);
@@ -565,7 +565,7 @@
             // locationControl1
             // 
             this.locationControl1.BackColor = System.Drawing.Color.Transparent;
-            this.locationControl1.Location = new System.Drawing.Point(38, 3);
+            this.locationControl1.Location = new System.Drawing.Point(29, 3);
             this.locationControl1.Name = "locationControl1";
             this.locationControl1.Size = new System.Drawing.Size(595, 67);
             this.locationControl1.TabIndex = 0;

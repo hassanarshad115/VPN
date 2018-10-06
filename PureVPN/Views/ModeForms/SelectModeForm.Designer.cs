@@ -189,6 +189,7 @@
             this.lblSecurity.TabIndex = 0;
             this.lblSecurity.Text = "Security / Privacy";
             this.lblSecurity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSecurity.Click += new System.EventHandler(this.pbxSecurity_Click);
             // 
             // panel5
             // 
@@ -232,6 +233,7 @@
             this.lblStream.TabIndex = 0;
             this.lblStream.Text = "Stream";
             this.lblStream.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblStream.Click += new System.EventHandler(this.pbxStream_Click);
             // 
             // panel7
             // 
@@ -292,6 +294,7 @@
             this.pbxDedicatedIp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbxDedicatedIp.TabIndex = 1;
             this.pbxDedicatedIp.TabStop = false;
+            this.pbxDedicatedIp.Click += new System.EventHandler(this.pbxDedicatedIp_Click);
             // 
             // panel10
             // 
@@ -312,6 +315,7 @@
             this.lblDedicatedIp.TabIndex = 0;
             this.lblDedicatedIp.Text = "Dedicated Ip";
             this.lblDedicatedIp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDedicatedIp.Click += new System.EventHandler(this.pbxDedicatedIp_Click);
             // 
             // panel11
             // 
@@ -334,6 +338,7 @@
             this.pbxFileShare.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbxFileShare.TabIndex = 1;
             this.pbxFileShare.TabStop = false;
+            this.pbxFileShare.Click += new System.EventHandler(this.pbxFileShare_Click);
             // 
             // panel12
             // 
@@ -354,6 +359,7 @@
             this.lblFileShare.TabIndex = 0;
             this.lblFileShare.Text = "File Share";
             this.lblFileShare.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblFileShare.Click += new System.EventHandler(this.SelectModeForm_Load);
             // 
             // label13
             // 
@@ -398,7 +404,6 @@
             this.MaximizeBox = false;
             this.Name = "SelectModeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SelectModeForm_FormClosed);
             this.Load += new System.EventHandler(this.SelectModeForm_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbxInternetFreedom)).EndInit();

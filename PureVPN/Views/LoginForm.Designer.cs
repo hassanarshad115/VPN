@@ -37,7 +37,6 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblBack = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.chkShowPassword = new System.Windows.Forms.CheckBox();
@@ -154,21 +153,6 @@
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
-            // lblBack
-            // 
-            this.lblBack.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblBack.AutoSize = true;
-            this.lblBack.BackColor = System.Drawing.Color.Transparent;
-            this.lblBack.Font = new System.Drawing.Font("Arial Narrow", 13.25F, System.Drawing.FontStyle.Bold);
-            this.lblBack.ForeColor = System.Drawing.Color.White;
-            this.lblBack.Location = new System.Drawing.Point(854, 34);
-            this.lblBack.Name = "lblBack";
-            this.lblBack.Size = new System.Drawing.Size(45, 22);
-            this.lblBack.TabIndex = 12;
-            this.lblBack.Text = "Back";
-            this.lblBack.Visible = false;
-            this.lblBack.Click += new System.EventHandler(this.lblBack_Click);
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -213,7 +197,6 @@
             this.Controls.Add(this.chkShowPassword);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.lblBack);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtPassword);
@@ -247,7 +230,6 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label lblBack;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.CheckBox chkShowPassword;
