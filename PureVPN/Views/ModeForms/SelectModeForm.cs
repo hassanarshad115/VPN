@@ -21,27 +21,32 @@ namespace PureVPN
 
         private void pbxStream_Click(object sender, EventArgs e)
         {
-            MainForm.OpenForm(new StreamModeForm());
+            
+            Close();
         }
 
         private void pbxInternetFreedom_Click(object sender, EventArgs e)
         {
-            MainForm.OpenForm(new InternetFreedomForm());
+            
+            Close();
         }
 
         private void pbxSecurity_Click(object sender, EventArgs e)
         {
-            MainForm.OpenForm(new SecurityPrivacyForm());
+            
+            Close();
         }
 
         private void pbxFileShare_Click(object sender, EventArgs e)
         {
-            MainForm.OpenForm(new FileShareForm());
+            
+            Close();
         }
 
         private void pbxDedicatedIp_Click(object sender, EventArgs e)
         {
-            MainForm.OpenForm(new DedicatedIPForm());
+            
+            Close();
         }
     }
 }
