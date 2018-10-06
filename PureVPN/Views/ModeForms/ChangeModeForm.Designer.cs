@@ -70,9 +70,9 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.locationControl1 = new PureVPN.LocationControl();
-            this.lblBack = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -93,6 +93,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
@@ -184,6 +185,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.ForeColor = System.Drawing.Color.Blue;
             this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkLabel1.Location = new System.Drawing.Point(82, 191);
             this.linkLabel1.Name = "linkLabel1";
@@ -568,19 +570,6 @@
             this.locationControl1.Size = new System.Drawing.Size(595, 67);
             this.locationControl1.TabIndex = 0;
             // 
-            // lblBack
-            // 
-            this.lblBack.AutoSize = true;
-            this.lblBack.BackColor = System.Drawing.Color.Transparent;
-            this.lblBack.Font = new System.Drawing.Font("Arial Narrow", 13.25F, System.Drawing.FontStyle.Bold);
-            this.lblBack.ForeColor = System.Drawing.Color.White;
-            this.lblBack.Location = new System.Drawing.Point(850, 35);
-            this.lblBack.Name = "lblBack";
-            this.lblBack.Size = new System.Drawing.Size(45, 22);
-            this.lblBack.TabIndex = 2;
-            this.lblBack.Text = "Back";
-            this.lblBack.Click += new System.EventHandler(this.lblBack_Click);
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -604,6 +593,16 @@
             this.pictureBox4.TabIndex = 29;
             this.pictureBox4.TabStop = false;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(85, 167);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(91, 22);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "STREAM";
+            // 
             // ChangeModeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -611,7 +610,6 @@
             this.ClientSize = new System.Drawing.Size(918, 645);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.lblBack);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -684,11 +682,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblpurpose;
-        private System.Windows.Forms.Label lblBack;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label9;
     }
 }
