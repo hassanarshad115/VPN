@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChangeModeForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -63,19 +63,17 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.countryControl1 = new PureVPN.Controls.countryControl();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblBack = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.countryControl1 = new PureVPN.Controls.countryControl();
             this.locationControl1 = new PureVPN.LocationControl();
+            this.lblBack = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -89,14 +87,13 @@
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.pictureBox5);
+            this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.button3);
@@ -109,44 +106,35 @@
             this.panel1.Size = new System.Drawing.Size(275, 582);
             this.panel1.TabIndex = 0;
             // 
-            // pictureBox4
+            // label11
             // 
-            this.pictureBox4.Image = global::PureVPN.Properties.Resources._8ca486faebd822ddf4baf00321b16df1_google_icon_logo_by_vexels;
-            this.pictureBox4.Location = new System.Drawing.Point(172, 520);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::PureVPN.Properties.Resources.twitter_circle_512;
-            this.pictureBox5.Location = new System.Drawing.Point(125, 520);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox5.TabIndex = 8;
-            this.pictureBox5.TabStop = false;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label11.Location = new System.Drawing.Point(24, 529);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(121, 44);
+            this.label11.TabIndex = 15;
+            this.label11.Text = "Get Browser\r\nExtension";
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::PureVPN.Properties.Resources._1414386628_facebook_circle_color_512;
-            this.pictureBox3.Location = new System.Drawing.Point(78, 520);
+            this.pictureBox3.Image = global::PureVPN.Properties.Resources.mozila1;
+            this.pictureBox3.Location = new System.Drawing.Point(214, 531);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.Size = new System.Drawing.Size(44, 40);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::PureVPN.Properties.Resources._58e9197deb97430e819064f8;
-            this.pictureBox2.Location = new System.Drawing.Point(31, 520);
+            this.pictureBox2.Image = global::PureVPN.Properties.Resources.g;
+            this.pictureBox2.Location = new System.Drawing.Point(164, 531);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.Size = new System.Drawing.Size(44, 40);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
             // 
             // button3
@@ -510,6 +498,14 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Stream Content";
             // 
+            // countryControl1
+            // 
+            this.countryControl1.Location = new System.Drawing.Point(8, 58);
+            this.countryControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.countryControl1.Name = "countryControl1";
+            this.countryControl1.Size = new System.Drawing.Size(556, 139);
+            this.countryControl1.TabIndex = 3;
+            // 
             // button6
             // 
             this.button6.FlatAppearance.BorderSize = 0;
@@ -564,6 +560,14 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Karachi, Pakistan";
             // 
+            // locationControl1
+            // 
+            this.locationControl1.BackColor = System.Drawing.Color.Transparent;
+            this.locationControl1.Location = new System.Drawing.Point(38, 3);
+            this.locationControl1.Name = "locationControl1";
+            this.locationControl1.Size = new System.Drawing.Size(595, 67);
+            this.locationControl1.TabIndex = 0;
+            // 
             // lblBack
             // 
             this.lblBack.AutoSize = true;
@@ -577,63 +581,46 @@
             this.lblBack.Text = "Back";
             this.lblBack.Click += new System.EventHandler(this.lblBack_Click);
             // 
-            // label13
+            // label10
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Arial Narrow", 13.25F, System.Drawing.FontStyle.Bold);
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(49, 35);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(107, 22);
-            this.label13.TabIndex = 18;
-            this.label13.Text = "Change Mode";
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(31, 3);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(296, 15);
+            this.label10.TabIndex = 28;
+            this.label10.Text = "PureVPN - Secure Virtual Private Network Connection";
             // 
-            // pictureBox10
+            // pictureBox4
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.Image = global::PureVPN.Properties.Resources.favicon;
-            this.pictureBox10.Location = new System.Drawing.Point(12, 21);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(31, 44);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox10.TabIndex = 17;
-            this.pictureBox10.TabStop = false;
-            // 
-            // countryControl1
-            // 
-            this.countryControl1.Location = new System.Drawing.Point(8, 58);
-            this.countryControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.countryControl1.Name = "countryControl1";
-            this.countryControl1.Size = new System.Drawing.Size(556, 139);
-            this.countryControl1.TabIndex = 3;
-            // 
-            // locationControl1
-            // 
-            this.locationControl1.BackColor = System.Drawing.Color.Transparent;
-            this.locationControl1.Location = new System.Drawing.Point(38, 3);
-            this.locationControl1.Name = "locationControl1";
-            this.locationControl1.Size = new System.Drawing.Size(595, 67);
-            this.locationControl1.TabIndex = 0;
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::PureVPN.Properties.Resources.fav;
+            this.pictureBox4.Location = new System.Drawing.Point(7, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(23, 24);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 29;
+            this.pictureBox4.TabStop = false;
             // 
             // ChangeModeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(918, 645);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.lblBack);
-            this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "ChangeModeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.changeMode_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -651,7 +638,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -665,10 +652,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
         private LocationControl locationControl1;
         private System.Windows.Forms.Panel panel3;
@@ -702,7 +685,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblpurpose;
         private System.Windows.Forms.Label lblBack;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

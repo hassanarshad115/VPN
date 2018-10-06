@@ -36,7 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>logo_1xY_icon.ico</ApplicationIcon>
+    <ApplicationIcon>fav.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Atom.SDK.Net, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
@@ -91,6 +91,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InformationClass.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +157,12 @@
     <Compile Include="MainSettings.cs" />
     <Compile Include="Models\GetPaymentDetails.cs" />
     <Compile Include="Models\UDatabase.cs" />
+    <Compile Include="Views\ModeForms\StreamModeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModeForms\StreamModeForm.Designer.cs">
+      <DependentUpon>StreamModeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\PayPalForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -235,6 +242,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LogOutBoxForm.resx">
       <DependentUpon>LogOutBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModeForms\StreamModeForm.resx">
+      <DependentUpon>StreamModeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\PayPalForm.resx">
       <DependentUpon>PayPalForm.cs</DependentUpon>
@@ -533,7 +543,14 @@
     <None Include="Resources\internetFreedom.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fav.ico" />
     <Content Include="logo_1xY_icon.ico" />
+    <None Include="Resources\fav.ico" />
+    <Content Include="Resources\g.jpg" />
+    <Content Include="Resources\mozila.jpg" />
+    <None Include="Resources\PureVPN.png" />
+    <None Include="Resources\logo_1xY_icon.ico" />
+    <None Include="Resources\logo_1xY_icon1.ico" />
     <None Include="Resources\pic.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

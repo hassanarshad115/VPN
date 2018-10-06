@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PureVPNForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -397,7 +398,7 @@
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.Image = global::PureVPN.Properties.Resources.favicon;
+            this.pictureBox10.Image = global::PureVPN.Properties.Resources.fav;
             this.pictureBox10.Location = new System.Drawing.Point(12, 24);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(31, 42);
@@ -405,7 +406,7 @@
             this.pictureBox10.TabIndex = 15;
             this.pictureBox10.TabStop = false;
             // 
-            // pureVPN
+            // PureVPNForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -415,7 +416,8 @@
             this.Controls.Add(this.lblBack);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "pureVPN";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "PureVPNForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.pureVPN_Load);
             this.panel1.ResumeLayout(false);

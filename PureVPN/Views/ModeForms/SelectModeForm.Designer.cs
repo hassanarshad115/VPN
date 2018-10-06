@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectModeForm));
             this.label1 = new System.Windows.Forms.Label();
             this.lnkLearnMore = new System.Windows.Forms.LinkLabel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -369,7 +370,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::PureVPN.Properties.Resources.favicon;
+            this.pictureBox2.Image = global::PureVPN.Properties.Resources.fav;
             this.pictureBox2.Location = new System.Drawing.Point(12, 25);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(31, 39);
@@ -393,6 +394,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lnkLearnMore);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "SelectModeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

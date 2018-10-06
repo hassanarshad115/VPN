@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PayPalForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -346,7 +347,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = global::PureVPN.Properties.Resources.favicon;
+            this.pictureBox5.Image = global::PureVPN.Properties.Resources.fav;
             this.pictureBox5.Location = new System.Drawing.Point(12, 24);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(31, 39);
@@ -565,7 +566,7 @@
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
-            // payPal
+            // PayPalForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -575,7 +576,8 @@
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.lblNext);
             this.Controls.Add(this.groupBox1);
-            this.Name = "payPal";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "PayPalForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.payPal_Load);
             this.groupBox1.ResumeLayout(false);

@@ -722,7 +722,7 @@
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox14.Image = global::PureVPN.Properties.Resources.favicon;
+            this.pictureBox14.Image = global::PureVPN.Properties.Resources.fav;
             this.pictureBox14.Location = new System.Drawing.Point(12, 22);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(31, 45);
@@ -730,7 +730,7 @@
             this.pictureBox14.TabIndex = 36;
             this.pictureBox14.TabStop = false;
             // 
-            // security
+            // SecurityForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -741,7 +741,7 @@
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "security";
+            this.Name = "SecurityForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.security_Load);
             this.panel1.ResumeLayout(false);
