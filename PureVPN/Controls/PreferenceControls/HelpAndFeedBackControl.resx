@@ -117,6 +117,72 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label12.Text" xml:space="preserve">
+    <value>.Right click on PureVFN icon in system tray and restart as
+ Admin.
+
+.Go to Setting and then click App Settings.
+
+.Connect VPN.
+
+.Click on VPN Hotspot in the menu and enable VPN Hotspot
+
+Note:To manage VPN Hotspot and set Network SSID and
+password,Click on Manage VPN Hotspot.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Click the Menu on the top right corner of the app:
+
+1.Select 'Multi Port'
+
+2.Toggle Multiport to "On"
+
+3.Connect using purpose or location
+
+Autotmatic port selection scans for open ports to bypass port 
+blocking and connects to the best availabe port(Port range
+5500-55000)automatically.
+
+You can also select a particular port manually on the multiport 
+screen.
+
+If you still have any questions,feel free to drop us an email at
+help@purevfn.com or join us on 24/7 live chat</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>In order to login the app using a different account,you need to
+do the following:
+
+1.First logout from the app [See FAQ # 3] Click Apply and OK.
+
+2.Enter your Desired Username and Password to login</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>PureVFN also offers a seprate Mobile account which only
+works on smart mobile devices.If you're using a Mobile account
+Username and Password,then it will cause disconnection issues
+in the Windows App</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>If changing protocol isn't working for you,then the firewall of
+your router might be causing this issue.In this case we would
+suggest you to:
+
+
+1.Open your router's security settings and disable SPI Firewall
+
+2.Add your computer/device to DMZ zone.</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>If changing protocol isn't working for you,then the firewall of
+your router might be causing this issue.In this case we would
+suggest you to:
+
+
+1.Open your router's security settings and disable SPI Firewall
+
+2.Add your computer/device to DMZ zone.</value>
+  </data>
   <data name="label8.Text" xml:space="preserve">
     <value>We started our journey back in 2007,and since then
 we have come a long way.With time we have 
