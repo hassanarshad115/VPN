@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PureVPN.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,31 +11,23 @@ using System.Windows.Forms;
 
 namespace PureVPN
 {
-    public partial class MainForm : Form
+    public partial class MainForm : MaterialSkin.Controls.MaterialForm
     {
-        public static Form MainFormInstance { get; set; }
-
         public MainForm()
         {
             InitializeComponent();
-
-            Visible = false;
-
-            OpenForm(new LoginForm());
         }
 
-        public static void OpenForm(Form form)
+        public static void OpenControl(MainForm mainForm, Control newControl)
         {
-            form.FormClosed += Form_FormClosed;
-            form.Show();
+            mainForm.pnlContainer.Controls.Clear();
+            newControl.Size = mainForm.pnlContainer.Size;
+            mainForm.pnlContainer.Controls.Add(newControl);
         }
 
-        private static void Form_FormClosed(object sender, FormClosedEventArgs e)
+        private void MainForm_Load(object sender, EventArgs e)
         {
-            if (Application.OpenForms.Count == 1)
-            {
-                Environment.Exit(0);
-            }
+            OpenControl(this, new LoginControl(this));
         }
     }
 }

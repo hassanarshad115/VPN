@@ -1,15 +1,18 @@
 ﻿using System;
-using Hassan;
-using PureVPN.Interface;
 using System.Windows.Forms;
+using Hassan;
 
-namespace PureVPN
+namespace PureVPN.Views
 {
-    public partial class LoginForm : MaterialSkin.Controls.MaterialForm
+    public partial class LoginControl : UserControl
     {
-        public LoginForm()
+        MainForm _mainForm;
+
+        public LoginControl(MainForm mainForm)
         {
             InitializeComponent();
+
+            _mainForm = mainForm;
         }
 
         private bool CheckErrors()
@@ -31,11 +34,6 @@ namespace PureVPN
             }
 
             return true;
-        }
-
-        private void Login_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void txtUserName_Enter(object sender, EventArgs e)
@@ -72,7 +70,7 @@ namespace PureVPN
 
         private void chkShowPassword_CheckedChanged(object sender, EventArgs e)
         {
-            txtPassword.UseSystemPasswordChar = !chkShowPassword.Checked;
+            txtPassword.UseSystemPasswordChar = chkShowPassword.Checked;
         }
 
         private void btnlogin_Click(object sender, EventArgs e)

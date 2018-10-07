@@ -158,6 +158,12 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\LoginControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\LoginControl.Designer.cs">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\ModeForms\ChangeModeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -302,6 +308,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\PreferenceControls\VPNHostingControl.resx">
       <DependentUpon>VPNHostingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LoginControl.resx">
+      <DependentUpon>LoginControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\ModeForms\ChangeModeForm.resx">
       <DependentUpon>ChangeModeForm.cs</DependentUpon>
